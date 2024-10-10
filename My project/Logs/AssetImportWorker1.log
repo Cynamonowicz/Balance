@@ -1,0 +1,2753 @@
+Unity Editor version:    2020.3.27f1 (e759542391ea)
+Branch:                  2020.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.6.9 (Build 22G830)
+Darwin version:          22.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/konstancja/Documents/Experiment/My project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50285
+Successfully changed project path to: /Users/konstancja/Documents/Experiment/My project
+/Users/konstancja/Documents/Experiment/My project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 141.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/konstancja/Documents/Experiment/My project/Assets
+GfxDevice: creating device client; threaded=0
+2024-10-07 20:00:28.399 Unity[15644:491043] iMac preferred device: AMD Radeon Pro 560X (high power)
+2024-10-07 20:00:28.399 Unity[15644:491043] Metal devices available: 1
+2024-10-07 20:00:28.399 Unity[15644:491043] 0: AMD Radeon Pro 560X (high power)
+2024-10-07 20:00:28.400 Unity[15644:491043] Using device AMD Radeon Pro 560X (high power)
+Initializing Metal device caps: AMD Radeon Pro 560X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000390 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 39.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.584 seconds
+Domain Reload Profiling:
+	ReloadAssembly (584ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (457ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (161ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (186ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (29ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007940 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 40.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.072 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1073ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (875ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.005356 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.015786 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+2024-10-07 20:00:46.490 Unity[15644:491043] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fe31786eb40 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2024-10-07 20:00:46.556 Unity[15644:491043] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fe317a9cc90 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.3 MB.
+System memory in use after: 57.6 MB.
+
+Unloading 183 unused Assets to reduce memory usage. Loaded Objects now: 2832.
+Total: 3.093543 ms (FindLiveObjects: 0.170384 ms CreateObjectMapping: 0.082606 ms MarkObjects: 2.376139 ms  DeleteObjects: 0.463806 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/NueGames/NueDeck/Prefabs/FX/Materials/AttackFxMaterial.mat
+  artifactKey: Guid(5629d3e84111bfc4a8e8108360b64b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/FX/Materials/AttackFxMaterial.mat using Guid(5629d3e84111bfc4a8e8108360b64b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910ae87bd0fc8c906413d8ec0a6559ed') in 2.400839 seconds 
+  Import took 2.408093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/FX/Materials/BlockFxMaterial.mat
+  artifactKey: Guid(947c47c5879d3d04a9554f9241694c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/FX/Materials/BlockFxMaterial.mat using Guid(947c47c5879d3d04a9554f9241694c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9a70bce540ee2ac4d60459655637d1') in 0.009700 seconds 
+  Import took 0.037733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/FX/Materials/StrenghtFxMaterial.mat
+  artifactKey: Guid(fff49e05c687f044b8abe0f7eff8f17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/FX/Materials/StrenghtFxMaterial.mat using Guid(fff49e05c687f044b8abe0f7eff8f17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70f6fcba28dbb6deb1523d83319e578') in 0.007985 seconds 
+  Import took 0.011031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/FX/Materials/PosionFxMaterial.mat
+  artifactKey: Guid(955d384d8cec5064182db7b9cff19e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/FX/Materials/PosionFxMaterial.mat using Guid(955d384d8cec5064182db7b9cff19e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d96d8bc6a2973a235ff68c45bd2070') in 0.008344 seconds 
+  Import took 0.011696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/FX/Materials/BuffFxMaterial.mat
+  artifactKey: Guid(ec40dac0e4da6b74cbabaaa4b46a52a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/FX/Materials/BuffFxMaterial.mat using Guid(ec40dac0e4da6b74cbabaaa4b46a52a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6262baaf0821831aa3ddd896b8310725') in 0.008478 seconds 
+  Import took 0.011606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/FX/Materials/HealFxMaterial.mat
+  artifactKey: Guid(6032280866a24e446bb054c5f7bfcf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/FX/Materials/HealFxMaterial.mat using Guid(6032280866a24e446bb054c5f7bfcf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e872fb9513f9dec97b435cc0e47eb44a') in 0.008688 seconds 
+  Import took 0.012191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/FX/Materials/StunFxMaterial.mat
+  artifactKey: Guid(2bf45f01446558f4faeb2a242eedf052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/FX/Materials/StunFxMaterial.mat using Guid(2bf45f01446558f4faeb2a242eedf052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd771c69a8bb30b34f8df5d1eeb297d') in 0.008207 seconds 
+  Import took 0.011061 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008039 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2024-10-07 20:14:44.759 Unity[15644:491043] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fe317856630 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.584 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1584ms)
+		BeginReloadAssembly (433ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1096ms)
+			LoadAssemblies (509ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (412ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.2 MB.
+System memory in use after: 134.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2874.
+Total: 3.023689 ms (FindLiveObjects: 0.213627 ms CreateObjectMapping: 0.104952 ms MarkObjects: 2.581358 ms  DeleteObjects: 0.122930 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 837.421331 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Characters/Enemy 1.prefab
+  artifactKey: Guid(c973aeb67e007d54c97fd480d7f50773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Characters/Enemy 1.prefab using Guid(c973aeb67e007d54c97fd480d7f50773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01499732628d000fd57a111e8c3e4168') in 0.297643 seconds 
+  Import took 0.306540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Collection/CardUI.prefab
+  artifactKey: Guid(036311fd7fba31149957b48b3f26905c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Collection/CardUI.prefab using Guid(036311fd7fba31149957b48b3f26905c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b21c661726c08aa28e59d879962ce76') in 0.051434 seconds 
+  Import took 0.056127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Background/BG_Profile_1.prefab
+  artifactKey: Guid(786828ce7bcb576419f47bfde1328aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Background/BG_Profile_1.prefab using Guid(786828ce7bcb576419f47bfde1328aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5cdd115dc34693af901aaa89f58121d') in 0.009933 seconds 
+  Import took 0.013406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Characters/EnemyExample.prefab
+  artifactKey: Guid(36d8b1640cc4b9146b1bdcae06c505a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Characters/EnemyExample.prefab using Guid(36d8b1640cc4b9146b1bdcae06c505a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cd8826dba87f49a3d71d934f93c5de') in 0.021515 seconds 
+  Import took 0.024640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Core/CombatManager.prefab
+  artifactKey: Guid(36c7284207bc0f143bdc3f1933146cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Core/CombatManager.prefab using Guid(36c7284207bc0f143bdc3f1933146cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1331254891e8da055a1c70d4757675a8') in 0.009468 seconds 
+  Import took 0.013133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Core/UIManager.prefab
+  artifactKey: Guid(e75f7099a69ce3b469d565d045c707d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Core/UIManager.prefab using Guid(e75f7099a69ce3b469d565d045c707d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71049a0f1b55f5ff4e68c8d7b9945cca') in 0.060117 seconds 
+  Import took 0.063526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Background/BG_Profile_3.prefab
+  artifactKey: Guid(53a1827e1180fc54cbdbee34cca34a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Background/BG_Profile_3.prefab using Guid(53a1827e1180fc54cbdbee34cca34a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8247eb1af9da924c2af99c785ecaf75f') in 0.003402 seconds 
+  Import took 0.005972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Core/AudioManager.prefab
+  artifactKey: Guid(40773ab897252994d865149455abef40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Core/AudioManager.prefab using Guid(40773ab897252994d865149455abef40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba06ca7c4a1b9d87f8a818e8f0ef7ee2') in 0.007720 seconds 
+  Import took 0.011063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Background/BackgroundContainer.prefab
+  artifactKey: Guid(7dded3f0431e1f64eb84e4fa994b54a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Background/BackgroundContainer.prefab using Guid(7dded3f0431e1f64eb84e4fa994b54a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01881a59cc5eb3a18fbf422452cf137') in 0.009859 seconds 
+  Import took 0.013389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Background/BG_Profile_2.prefab
+  artifactKey: Guid(ffba960b1ce14c14a9dc557a80148230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Background/BG_Profile_2.prefab using Guid(ffba960b1ce14c14a9dc557a80148230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbc3900e98cbfe0588ebe5d30e6ab01') in 0.004249 seconds 
+  Import took 0.012507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Collection/EncounterButton.prefab
+  artifactKey: Guid(e50345647ed7c304e9539a308c38fc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Collection/EncounterButton.prefab using Guid(e50345647ed7c304e9539a308c38fc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1705458291d6fb76430302eabb9bf685') in 0.017743 seconds 
+  Import took 0.020485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Characters/Enemy 3.prefab
+  artifactKey: Guid(12422914cfeeb1349afec0d663b87504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Characters/Enemy 3.prefab using Guid(12422914cfeeb1349afec0d663b87504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6df1e690296881cd18dacdb504a9362') in 0.022761 seconds 
+  Import took 0.025616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Collection/CardUI_Choice.prefab
+  artifactKey: Guid(064f09601e0b46348b1488f9cc7fd9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Collection/CardUI_Choice.prefab using Guid(064f09601e0b46348b1488f9cc7fd9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50de65c31cffe0ed6d8c31bd822bcf79') in 0.018080 seconds 
+  Import took 0.021112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Collection/Card3D_Choice.prefab
+  artifactKey: Guid(026170fff350f3f43b7856af2f85ab6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Collection/Card3D_Choice.prefab using Guid(026170fff350f3f43b7856af2f85ab6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6965d7eceaa93dcc21f9acd5a38a19') in 0.019913 seconds 
+  Import took 0.022949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Core/FxManager.prefab
+  artifactKey: Guid(e7a9bde70f4f930459240b323a8fcd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Core/FxManager.prefab using Guid(e7a9bde70f4f930459240b323a8fcd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9505205e4ffb89c909e43cae1637e3') in 0.030005 seconds 
+  Import took 0.033213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Collection/Card3D.prefab
+  artifactKey: Guid(a9728682a56595f4989b8f224d934689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Collection/Card3D.prefab using Guid(a9728682a56595f4989b8f224d934689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f90048cd69b9f5218496fdb318f7df3') in 0.016147 seconds 
+  Import took 0.019244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Core/CollectionManager.prefab
+  artifactKey: Guid(5e81fa3d17dd2f6478c49d213ec328b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Core/CollectionManager.prefab using Guid(5e81fa3d17dd2f6478c49d213ec328b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b420dc3bdd733b3f95050216403868') in 0.005913 seconds 
+  Import took 0.008728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Characters/Enemy 2.prefab
+  artifactKey: Guid(9fec376b8bc12e645a735f176747a31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Characters/Enemy 2.prefab using Guid(9fec376b8bc12e645a735f176747a31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0802001acb0bfcc656ee9fccb696bc8') in 0.023633 seconds 
+  Import took 0.027072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Core/GameManager.prefab
+  artifactKey: Guid(fe4c5d93acf671e48b2593ed75c25a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Core/GameManager.prefab using Guid(fe4c5d93acf671e48b2593ed75c25a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7f16fd2388e5df41fa60e912796f39') in 0.031893 seconds 
+  Import took 0.035461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Characters/PlayerExample.prefab
+  artifactKey: Guid(6472d62dc90afc04db103b9a3f293860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Characters/PlayerExample.prefab using Guid(6472d62dc90afc04db103b9a3f293860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c96dac160fc33b304111ef765ef3cbc') in 0.021620 seconds 
+  Import took 0.040219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Collection/CardCanvas.prefab
+  artifactKey: Guid(1f0d6da961667c54c92335a6cbca8ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Collection/CardCanvas.prefab using Guid(1f0d6da961667c54c92335a6cbca8ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045a1ce1fadb6883a7ff72c4d50bd829') in 0.016961 seconds 
+  Import took 0.020372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Core/MapManager.prefab
+  artifactKey: Guid(6888e9c09cfb0d743ae01323df723b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Core/MapManager.prefab using Guid(6888e9c09cfb0d743ae01323df723b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57cea8439fccbaf7d665ec3e4e7a353') in 0.018176 seconds 
+  Import took 0.020952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Collection/HandController.prefab
+  artifactKey: Guid(a45e8add0d26bd5499f54577a1579ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Collection/HandController.prefab using Guid(a45e8add0d26bd5499f54577a1579ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afde3136f268b3d2e1a3ba9fcd7f8f13') in 0.003603 seconds 
+  Import took 0.006573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.731340 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/UI/CombatCanvas.prefab
+  artifactKey: Guid(3cb5ee0c41b0f3145bdb870938f278a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/UI/CombatCanvas.prefab using Guid(3cb5ee0c41b0f3145bdb870938f278a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa29dcbcfa0dd4881a0060da370f822') in 0.022793 seconds 
+  Import took 0.026361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/UI/RewardContainer.prefab
+  artifactKey: Guid(7728fa9ef774a574fa112e56a3a8c0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/UI/RewardContainer.prefab using Guid(7728fa9ef774a574fa112e56a3a8c0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9b046028e9be2f6647582c32294700') in 0.016000 seconds 
+  Import took 0.018917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/UI/CombatWinPanel.prefab
+  artifactKey: Guid(ea36b1aa3e616c34caafedd21e45e4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/UI/CombatWinPanel.prefab using Guid(ea36b1aa3e616c34caafedd21e45e4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbb150fd480615d56d04b78ae8b349a') in 0.016403 seconds 
+  Import took 0.019488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/UI/InformationCanvas.prefab
+  artifactKey: Guid(701d4c09c8f0880498fb64626727d7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/UI/InformationCanvas.prefab using Guid(701d4c09c8f0880498fb64626727d7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a5207c2be32ad40a0386fa0c4e56f1') in 0.016092 seconds 
+  Import took 0.019466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/UI/InventoryCanvas.prefab
+  artifactKey: Guid(266a4aa1df17dff44ab9c52b6bc694ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/UI/InventoryCanvas.prefab using Guid(266a4aa1df17dff44ab9c52b6bc694ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccda6cfdcd0681d9f07584b1499d8264') in 0.018144 seconds 
+  Import took 0.031210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/UI/FaderCanvas.prefab
+  artifactKey: Guid(d3a3cca1c891fa443ac291135e47411d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/UI/FaderCanvas.prefab using Guid(d3a3cca1c891fa443ac291135e47411d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98409d4da1574092361ff3eeca58c5d2') in 0.003849 seconds 
+  Import took 0.007178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/UI/MapCanvas.prefab
+  artifactKey: Guid(d7fdf04f09bb5be40b7c54e6a08292b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/UI/MapCanvas.prefab using Guid(d7fdf04f09bb5be40b7c54e6a08292b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2cc982777f959ed8c2181310e8549f') in 0.016265 seconds 
+  Import took 0.019256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/UI/StatusIconPrefab.prefab
+  artifactKey: Guid(f4e76bc2e67da6241b52b8d7c6034e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/UI/StatusIconPrefab.prefab using Guid(f4e76bc2e67da6241b52b8d7c6034e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce5649c20cf502d78b11eab8a18ea91') in 0.003555 seconds 
+  Import took 0.006216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/UI/CombatLosePanel.prefab
+  artifactKey: Guid(040de7b5bec1dba4aa47eec3843c56ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/UI/CombatLosePanel.prefab using Guid(040de7b5bec1dba4aa47eec3843c56ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e25571bba2fa5d6a8ad2d160796f82') in 0.016336 seconds 
+  Import took 0.019282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/UI/RewardCanvas.prefab
+  artifactKey: Guid(ffd67f0562e69264b8c1b92677886e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/UI/RewardCanvas.prefab using Guid(ffd67f0562e69264b8c1b92677886e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5515e0d0dd9efa95fa85afcfda6d40c') in 0.020985 seconds 
+  Import took 0.024267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/UI/MainMenuCanvas.prefab
+  artifactKey: Guid(0f20f68f48abf2844b9f1fb520647c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/UI/MainMenuCanvas.prefab using Guid(0f20f68f48abf2844b9f1fb520647c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094865f44a0da64ac92ab88f8bd9eb73') in 0.016004 seconds 
+  Import took 0.019142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/UI/FloatingText.prefab
+  artifactKey: Guid(ff5e71a98d9a7364e9d9fbe0d5a58c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/UI/FloatingText.prefab using Guid(ff5e71a98d9a7364e9d9fbe0d5a58c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40fc49a39dd91e55201b94c545e4968') in 0.015762 seconds 
+  Import took 0.028879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.957405 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/FX/AttackFx.prefab
+  artifactKey: Guid(dceaed87f54c54143aea01eb53e65e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/FX/AttackFx.prefab using Guid(dceaed87f54c54143aea01eb53e65e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47e56fb10f6950507805341191d7541') in 0.010710 seconds 
+  Import took 0.013905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/FX/PoisonFx.prefab
+  artifactKey: Guid(c3f955d1f6395f845b55a325f00b7d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/FX/PoisonFx.prefab using Guid(c3f955d1f6395f845b55a325f00b7d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc072789625b3b489802d7afb8ca3440') in 0.007623 seconds 
+  Import took 0.022201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/FX/BlockFx.prefab
+  artifactKey: Guid(8073c6148b9eaf44995acf9a22331f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/FX/BlockFx.prefab using Guid(8073c6148b9eaf44995acf9a22331f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70b58a5d8c396c0ee487cb0b8e112a8') in 0.007813 seconds 
+  Import took 0.010995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/FX/HealFx.prefab
+  artifactKey: Guid(a1d31c6911c7d4840b472c3489c4f5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/FX/HealFx.prefab using Guid(a1d31c6911c7d4840b472c3489c4f5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1116be556c74b008dce42c76dc013740') in 0.007142 seconds 
+  Import took 0.010396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/FX/BuffFx.prefab
+  artifactKey: Guid(11a5c265e67f20144a9ec55a3e948415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/FX/BuffFx.prefab using Guid(11a5c265e67f20144a9ec55a3e948415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c894083cad18d6961fa41764bfbec9fa') in 0.007510 seconds 
+  Import took 0.010570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/FX/StrFx.prefab
+  artifactKey: Guid(a966665c25c808a4fa9a24cbbd6bbb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/FX/StrFx.prefab using Guid(a966665c25c808a4fa9a24cbbd6bbb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36423731456bed094736190d325b8aee') in 0.007272 seconds 
+  Import took 0.055177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/FX/StunFx.prefab
+  artifactKey: Guid(9f4840041868be74ea8d4f988e961a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/FX/StunFx.prefab using Guid(9f4840041868be74ea8d4f988e961a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8978a869c3f22ed18e31ede5081ae20') in 0.007753 seconds 
+  Import took 0.010875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.346237 seconds.
+  path: Assets/NueGames/NueDeck/Scripts/Card/CardActions/AttackAction.cs
+  artifactKey: Guid(eb9d30833e584a24ae2793abdaaf1a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Scripts/Card/CardActions/AttackAction.cs using Guid(eb9d30833e584a24ae2793abdaaf1a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee2dd93ff665a3dd84a13839665ddb0') in 2.609249 seconds 
+  Import took 2.616817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.495275 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Utils
+  artifactKey: Guid(309544af20a2731458cc26febe771e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Utils using Guid(309544af20a2731458cc26febe771e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f21c94a77241a2be1626f25fffd7d1') in 0.001336 seconds 
+  Import took 0.004909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Utils/CoreLoader.prefab
+  artifactKey: Guid(cc6d636a6c3f5814bafe200c1e4ed46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Utils/CoreLoader.prefab using Guid(cc6d636a6c3f5814bafe200c1e4ed46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6abb350df35dceaab6341bbd18d4bd81') in 0.006287 seconds 
+  Import took 0.009543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.657226 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Collection
+  artifactKey: Guid(554ff472923f2e647a012e959475ba22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Collection using Guid(554ff472923f2e647a012e959475ba22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f3391909e188353ab7cc5ca3f795f3') in 0.001056 seconds 
+  Import took 0.004357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.660541 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards
+  artifactKey: Guid(d2aaee0632f206945a700daa13cbc614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards using Guid(d2aaee0632f206945a700daa13cbc614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3dce336bce371a9dbcf3429badc18f') in 0.001511 seconds 
+  Import took 0.005126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058369 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards/1-Attack_Basic.asset
+  artifactKey: Guid(1e43cdb39f5836b44942f367125cadde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards/1-Attack_Basic.asset using Guid(1e43cdb39f5836b44942f367125cadde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7aa55d765f009cd6f6faee6bb3d78f') in 0.086104 seconds 
+  Import took 0.093852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.228384 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards/2-Attack_Fast.asset
+  artifactKey: Guid(8f655889219afa649a967e88e37f98ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards/2-Attack_Fast.asset using Guid(8f655889219afa649a967e88e37f98ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47de3c28201d03ca5d883316e6b98fbc') in 0.007577 seconds 
+  Import took 0.011612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards/4-Draw_Basic.asset
+  artifactKey: Guid(7c3fef23d2fb177478906e53364bf7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards/4-Draw_Basic.asset using Guid(7c3fef23d2fb177478906e53364bf7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d6e36705e124a7805d71e4d78c9eca') in 0.002887 seconds 
+  Import took 0.017381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards/8-Skill_EarnMana.asset
+  artifactKey: Guid(5d6b018bf7dec554ba0a2eabfd89d3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards/8-Skill_EarnMana.asset using Guid(5d6b018bf7dec554ba0a2eabfd89d3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666e73268466ec081f10940c614fd901') in 0.002951 seconds 
+  Import took 0.009820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards/9-Attack_LifeSteal.asset
+  artifactKey: Guid(ffd3079242e164645ba9365c7c965def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards/9-Attack_LifeSteal.asset using Guid(ffd3079242e164645ba9365c7c965def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e524cf155734dcf829241da4cafe22d') in 0.003240 seconds 
+  Import took 0.006506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards/7-Power_Strength.asset
+  artifactKey: Guid(1e5671bf6b0f90b428df809497a2f125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards/7-Power_Strength.asset using Guid(1e5671bf6b0f90b428df809497a2f125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1a3902b05944ff3a9cd861da52e9ac') in 0.002936 seconds 
+  Import took 0.005783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards/3-Block_Basic.asset
+  artifactKey: Guid(e1783ca46b526944c969405b4c0a29ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards/3-Block_Basic.asset using Guid(e1783ca46b526944c969405b4c0a29ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd868888e3d2994a86ff5259f8bfe2bfd') in 0.003418 seconds 
+  Import took 0.006660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards/6-Power_MaxHealth.asset
+  artifactKey: Guid(9706119fd5cc9f34e90cb73be068200c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards/6-Power_MaxHealth.asset using Guid(9706119fd5cc9f34e90cb73be068200c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2d674334f09c822845856b124ddc0b') in 0.002708 seconds 
+  Import took 0.005918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards/5-Heal_Basic.asset
+  artifactKey: Guid(97392c824000e4049a6299b2cef0e84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards/5-Heal_Basic.asset using Guid(97392c824000e4049a6299b2cef0e84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17272d62fbf60aeb201c9855b347a73') in 0.002839 seconds 
+  Import took 0.006499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3201.946750 seconds.
+  path: Assets/NueGames/NueDeck/Data/Decks/InitalDeck.asset
+  artifactKey: Guid(1f1db59d6dc1c1046b2ad72c336c615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Decks/InitalDeck.asset using Guid(1f1db59d6dc1c1046b2ad72c336c615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04264c38a8b2bd6c95508d3f9432ac35') in 0.021381 seconds 
+  Import took 0.045697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.652923 seconds.
+  path: Assets/NueGames/NueDeck/Data/Rewards/Card Reward Data.asset
+  artifactKey: Guid(6cecd2669f04dbf40be0053e0a29c0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Rewards/Card Reward Data.asset using Guid(6cecd2669f04dbf40be0053e0a29c0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c928e2017a51fbf2bd544ff38f633e') in 0.019154 seconds 
+  Import took 0.025180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/NueGames/NueDeck/Data/Rewards/Gold Reward Data.asset
+  artifactKey: Guid(bef18396ce6d1a94489b81eacda6328e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Rewards/Gold Reward Data.asset using Guid(bef18396ce6d1a94489b81eacda6328e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec318322a27f69b2d8fe70acebac164') in 0.003554 seconds 
+  Import took 0.007379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48675.398942 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New
+  artifactKey: Guid(3b5a78909ce8245b587d40c3b7ace0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New using Guid(3b5a78909ce8245b587d40c3b7ace0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1590c260f9002ca0d0380da70dee681') in 0.114856 seconds 
+  Import took 0.429145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.225929 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/AceOfSwords.asset
+  artifactKey: Guid(e556c3412100e40c7bd054aec2f1b507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/AceOfSwords.asset using Guid(e556c3412100e40c7bd054aec2f1b507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750df99411b0bab19616b18844dbeedd') in 0.114366 seconds 
+  Import took 0.400605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.021776 seconds.
+  path: Assets/NueGames/NueDeck/Data/Rewards
+  artifactKey: Guid(bfc2ffb254aff4c459216a7150f60cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Rewards using Guid(bfc2ffb254aff4c459216a7150f60cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1b53fd97f5e800ff43031b33c1f053') in 0.003874 seconds 
+  Import took 0.232210 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.304396 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2024-10-09 13:18:07.998 Unity[15644:491043] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fe316fef150 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.682 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3720ms)
+		BeginReloadAssembly (740ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (179ms)
+		EndReloadAssembly (2912ms)
+			LoadAssemblies (2419ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (334ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 366.9 MB.
+System memory in use after: 367.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2877.
+Total: 3.004645 ms (FindLiveObjects: 0.243130 ms CreateObjectMapping: 0.085353 ms MarkObjects: 2.467250 ms  DeleteObjects: 0.208161 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3775.931939 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/UI/CharacterCanvas/AllyCanvas Variant.prefab
+  artifactKey: Guid(06cd4b0ebbcba2f4896b474ce827c4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/UI/CharacterCanvas/AllyCanvas Variant.prefab using Guid(06cd4b0ebbcba2f4896b474ce827c4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae192bf4f4157a57c3b670a486f2573a') in 0.826397 seconds 
+  Import took 0.844461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/NueGames/NueDeck/Sprites/Cards/Card 12.png
+  artifactKey: Guid(f071ce71140638f469d6a10acc1a1b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Sprites/Cards/Card 12.png using Guid(f071ce71140638f469d6a10acc1a1b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0863ca40245eed7645d05e46a7317eac') in 2.525090 seconds 
+  Import took 2.611605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/NueGames/NueDeck/Sprites/Buttons/Buttons-Sheet.png
+  artifactKey: Guid(a707003c96586cc41b22ae32a9cdb636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Sprites/Buttons/Buttons-Sheet.png using Guid(a707003c96586cc41b22ae32a9cdb636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b993a2e928c510ea40a32a47e89729b8') in 0.056298 seconds 
+  Import took 0.088481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/NueGames/NueDeck/Sprites/Cards/Card 4.png
+  artifactKey: Guid(a0c75614ede963a46af4bc352b3faabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Sprites/Cards/Card 4.png using Guid(a0c75614ede963a46af4bc352b3faabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9926316397dfe67e6895409f9ecf64fa') in 0.038361 seconds 
+  Import took 0.056667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/NueGames/NueDeck/Sprites/Cards/Card 9.png
+  artifactKey: Guid(04684b85c9246b945a48b41d9ec2f4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Sprites/Cards/Card 9.png using Guid(04684b85c9246b945a48b41d9ec2f4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd316654a5670a662350c2c1f2a5d34a') in 0.022421 seconds 
+  Import took 0.070752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/NueGames/NueDeck/Sprites/Cards/Card 8.png
+  artifactKey: Guid(c0629e7c358247d4291114d4e9521ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Sprites/Cards/Card 8.png using Guid(c0629e7c358247d4291114d4e9521ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d16242c9203da0ab6a96b7bc524fe5') in 0.033611 seconds 
+  Import took 0.054625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/NueGames/NueDeck/Sprites/Cards/Card 5.png
+  artifactKey: Guid(1ff30701a92bdf24e802aeecfcb1eff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Sprites/Cards/Card 5.png using Guid(1ff30701a92bdf24e802aeecfcb1eff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd542d5155f682343940e43c253d45c') in 0.010265 seconds 
+  Import took 0.053589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/NueGames/NueDeck/Sprites/Cards/Card 11.png
+  artifactKey: Guid(f699460fbf1b2404bb6c2e727663fc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Sprites/Cards/Card 11.png using Guid(f699460fbf1b2404bb6c2e727663fc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e93cff92fe03ef487dd776f6b7c132') in 0.026323 seconds 
+  Import took 0.030080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/NueGames/NueDeck/Sprites/Cards/Card 6.png
+  artifactKey: Guid(5da79233f66c40346875f782a8679a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Sprites/Cards/Card 6.png using Guid(5da79233f66c40346875f782a8679a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca49bbf1672bbe15894e197df060c51d') in 0.046197 seconds 
+  Import took 0.091203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/NueGames/NueDeck/Sprites/Cards/Card 1.png
+  artifactKey: Guid(8510ca3a47f6c23479e9992c04455698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Sprites/Cards/Card 1.png using Guid(8510ca3a47f6c23479e9992c04455698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3441ad0740738043acdb21269b2037') in 0.028602 seconds 
+  Import took 0.031774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/NueGames/NueDeck/Sprites/Cards/Card 3.png
+  artifactKey: Guid(6d79f0e0e016ca64592cdb3293bf37da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Sprites/Cards/Card 3.png using Guid(6d79f0e0e016ca64592cdb3293bf37da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a818017d7bdf4c90a4307efe36b0144') in 0.047064 seconds 
+  Import took 0.091565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/NueGames/NueDeck/Sprites/Cards/Card 10.png
+  artifactKey: Guid(1113310f8619a8747b68ee8b7fc7d63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Sprites/Cards/Card 10.png using Guid(1113310f8619a8747b68ee8b7fc7d63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5786a8fdca6a8ca0d20b69d86d0ccfe7') in 0.019025 seconds 
+  Import took 0.031953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/NueGames/NueDeck/Sprites/Cards/Card 7.png
+  artifactKey: Guid(2dc94d1255b6d97418b75b7cbdc88b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Sprites/Cards/Card 7.png using Guid(2dc94d1255b6d97418b75b7cbdc88b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688fd60ab858e12054c1ae53c2cee198') in 0.043557 seconds 
+  Import took 0.084109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/NueGames/NueDeck/Sprites/Cards
+  artifactKey: Guid(44f04871c3ac0d7479a7dc1219233dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Sprites/Cards using Guid(44f04871c3ac0d7479a7dc1219233dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16cfe8df2ffa23727a869bf43c8b4b94') in 0.002028 seconds 
+  Import took 0.053636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/NueGames/NueDeck/Sprites/Cards/Card 2.png
+  artifactKey: Guid(0a60e9c983046544091ff0f23327da5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Sprites/Cards/Card 2.png using Guid(0a60e9c983046544091ff0f23327da5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d46a44c401eb2ebc6f640c695b7efc') in 0.014253 seconds 
+  Import took 0.045274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset
+  artifactKey: Guid(479a66fa4b094512a62b0a8e553ad95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset using Guid(479a66fa4b094512a62b0a8e553ad95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc07a8244a4314f0321e18ac677f9360') in 0.021786 seconds 
+  Import took 0.035250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.672830 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/1_AceOfSwords.asset
+  artifactKey: Guid(e556c3412100e40c7bd054aec2f1b507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/1_AceOfSwords.asset using Guid(e556c3412100e40c7bd054aec2f1b507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b06ab90a582c7e8f65ce5324832025') in 0.006869 seconds 
+  Import took 0.056183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.897440 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/1-Attack_AceOfSwords.asset
+  artifactKey: Guid(e556c3412100e40c7bd054aec2f1b507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/1-Attack_AceOfSwords.asset using Guid(e556c3412100e40c7bd054aec2f1b507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e606ab8533cb111bdfbaf6cde99f231') in 0.004998 seconds 
+  Import took 0.008840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 435.640772 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/1-Attack_AceOfSwords 1.asset
+  artifactKey: Guid(d621d62ed745e4386a520118d20e05b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/1-Attack_AceOfSwords 1.asset using Guid(d621d62ed745e4386a520118d20e05b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a530d0a95a35db60188dbd61b9c1e57') in 0.011087 seconds 
+  Import took 0.111730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.212045 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/1-Attack_AceOfSwords.asset
+  artifactKey: Guid(e556c3412100e40c7bd054aec2f1b507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/1-Attack_AceOfSwords.asset using Guid(e556c3412100e40c7bd054aec2f1b507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2e113303432b361ace1a1985378f03') in 0.004709 seconds 
+  Import took 0.034776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.624827 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/2-Heal_AceOfCups.asset
+  artifactKey: Guid(d621d62ed745e4386a520118d20e05b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/2-Heal_AceOfCups.asset using Guid(d621d62ed745e4386a520118d20e05b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d6d2e072113bd76f750efc653e33ff') in 0.006563 seconds 
+  Import took 0.036233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.547768 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards/1-Attack_Basic.asset
+  artifactKey: Guid(1e43cdb39f5836b44942f367125cadde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards/1-Attack_Basic.asset using Guid(1e43cdb39f5836b44942f367125cadde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e030c62200afd3c1a712d156b251a55') in 0.023696 seconds 
+  Import took 0.049157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.895844 seconds.
+  path: Assets/NueGames/NueDeck/Data/EnemyIntentionData
+  artifactKey: Guid(080fba0dd0b056847ad30a3b8393f656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/EnemyIntentionData using Guid(080fba0dd0b056847ad30a3b8393f656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bf02d75eacac15cb7b556bf8666e61') in 0.005172 seconds 
+  Import took 0.082243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.249278 seconds.
+  path: Assets/NueGames/NueDeck/Data/EnemyIntentionData/Attack Intention.asset
+  artifactKey: Guid(2af475f5121b73d4c99b67551230aa48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/EnemyIntentionData/Attack Intention.asset using Guid(2af475f5121b73d4c99b67551230aa48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5a042e78009d35d0b22bb75c35be25') in 0.014978 seconds 
+  Import took 0.052764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.074833 seconds.
+  path: Assets/NueGames/NueDeck/Data/EnemyIntentionData/Debuff Intention.asset
+  artifactKey: Guid(e7deaaa3f01f8f54ab8c29a0ce3c8f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/EnemyIntentionData/Debuff Intention.asset using Guid(e7deaaa3f01f8f54ab8c29a0ce3c8f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d65c1e1b0b7721096ccbab160eed0f4') in 0.009651 seconds 
+  Import took 0.030859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.649473 seconds.
+  path: Assets/NueGames/NueDeck/Data/EnemyIntentionData/Defend Intention.asset
+  artifactKey: Guid(b0b1e7f2f78bb444eb1666e4accf22ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/EnemyIntentionData/Defend Intention.asset using Guid(b0b1e7f2f78bb444eb1666e4accf22ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa01563a7435ae99d3a6f0cc5fd9d17') in 0.004960 seconds 
+  Import took 0.014471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.793929 seconds.
+  path: Assets/NueGames/NueDeck/Data/EnemyIntentionData/Heal Intention.asset
+  artifactKey: Guid(d8b91adf93b4e21419f64f9a68fc3c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/EnemyIntentionData/Heal Intention.asset using Guid(d8b91adf93b4e21419f64f9a68fc3c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98af1f618aa51dc67854b890409fe6c7') in 0.004340 seconds 
+  Import took 0.009020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.027897 seconds.
+  path: Assets/NueGames/NueDeck/Data/EnemyIntentionData/Special Intention.asset
+  artifactKey: Guid(eecc6882d35f9934685f994e4d81867b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/EnemyIntentionData/Special Intention.asset using Guid(eecc6882d35f9934685f994e4d81867b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c86d56743ff2bf648696966de54e3d') in 0.004149 seconds 
+  Import took 0.050852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.735253 seconds.
+  path: Assets/NueGames/NueDeck
+  artifactKey: Guid(0804d189a1c2e81499515d3d03d1d848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck using Guid(0804d189a1c2e81499515d3d03d1d848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb093e48b82af10f21d1f9914401e74') in 0.005943 seconds 
+  Import took 0.048827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.180543 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs
+  artifactKey: Guid(a51937802f532b742b742a987a5ec6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs using Guid(a51937802f532b742b742a987a5ec6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d01d178be1eb990c9df43ea0db50e0f') in 0.001457 seconds 
+  Import took 0.014824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1275.338792 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/2-Heal_AceOfCups 1.asset
+  artifactKey: Guid(7f61fd4a32a9647cc981d1fcaa505ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/2-Heal_AceOfCups 1.asset using Guid(7f61fd4a32a9647cc981d1fcaa505ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbd4d9c46b3ac2a7de1606b7157c8d6') in 0.014835 seconds 
+  Import took 0.060714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.889588 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/2-Block_AceOfPentacles.asset
+  artifactKey: Guid(7f61fd4a32a9647cc981d1fcaa505ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/2-Block_AceOfPentacles.asset using Guid(7f61fd4a32a9647cc981d1fcaa505ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c6195690cd43ccf778b33ff88af541') in 0.005839 seconds 
+  Import took 0.009733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.071646 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/3-Block_AceOfPentacles.asset
+  artifactKey: Guid(7f61fd4a32a9647cc981d1fcaa505ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/3-Block_AceOfPentacles.asset using Guid(7f61fd4a32a9647cc981d1fcaa505ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db8428c854f51d0c6a405d8eaf26908') in 0.005515 seconds 
+  Import took 0.009338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.793198 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/2-Heal_AceOfCups.asset
+  artifactKey: Guid(d621d62ed745e4386a520118d20e05b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/2-Heal_AceOfCups.asset using Guid(d621d62ed745e4386a520118d20e05b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8943ffee19c31b0f40df9fe8c7159be5') in 0.009231 seconds 
+  Import took 0.023627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.967825 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/Card Data.asset
+  artifactKey: Guid(6c528269bedb841258c9facd0c4082ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/Card Data.asset using Guid(6c528269bedb841258c9facd0c4082ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5e050d53b362bedb69df2c66f44c40') in 0.005770 seconds 
+  Import took 0.035074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.896366 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/3-Block_AceOfPentacles 1.asset
+  artifactKey: Guid(34e150d5d52d94bbe932aa9c74fd54d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/3-Block_AceOfPentacles 1.asset using Guid(34e150d5d52d94bbe932aa9c74fd54d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1ee908fb9ae11ac1cf53943ed287c7') in 0.006270 seconds 
+  Import took 0.050799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.571655 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/4-LifeSteal_TheFool.asset
+  artifactKey: Guid(34e150d5d52d94bbe932aa9c74fd54d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/4-LifeSteal_TheFool.asset using Guid(34e150d5d52d94bbe932aa9c74fd54d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499eb45c40171921de4af7940fa20406') in 0.005538 seconds 
+  Import took 0.114779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.230699 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/3-Block_AceOfPentacles.asset
+  artifactKey: Guid(7f61fd4a32a9647cc981d1fcaa505ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/3-Block_AceOfPentacles.asset using Guid(7f61fd4a32a9647cc981d1fcaa505ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15f811f84ea8c701c9f17779ee4771a') in 0.005284 seconds 
+  Import took 0.020655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.480858 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/4-LifeSteal_TheFool 1.asset
+  artifactKey: Guid(ad773dd18b2bb419db6043b0db21bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/4-LifeSteal_TheFool 1.asset using Guid(ad773dd18b2bb419db6043b0db21bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4c63c3a97b948439c38f6f9af63bc5') in 0.005638 seconds 
+  Import took 0.008994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.198877 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/5-Mana_TheMagician.asset
+  artifactKey: Guid(ad773dd18b2bb419db6043b0db21bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/5-Mana_TheMagician.asset using Guid(ad773dd18b2bb419db6043b0db21bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e81e4724c0d460e0499cd8b662d850') in 0.005281 seconds 
+  Import took 0.008511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 878.572360 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/4-LifeSteal_TheFool.asset
+  artifactKey: Guid(34e150d5d52d94bbe932aa9c74fd54d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/4-LifeSteal_TheFool.asset using Guid(34e150d5d52d94bbe932aa9c74fd54d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d387fd6f0c492d1894d218f123de718') in 0.013120 seconds 
+  Import took 0.093572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.715070 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/5-Mana_TheMagician.asset
+  artifactKey: Guid(ad773dd18b2bb419db6043b0db21bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/5-Mana_TheMagician.asset using Guid(ad773dd18b2bb419db6043b0db21bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e57edac1bc350dca89c401c74749b6c') in 0.005064 seconds 
+  Import took 0.039557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 550.092810 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/5-Mana_TheMagician 1.asset
+  artifactKey: Guid(ff477c5a86ad240fa9326f6eeb683034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/5-Mana_TheMagician 1.asset using Guid(ff477c5a86ad240fa9326f6eeb683034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ccdeb1291a489a2197535ca4cdfc3b') in 0.014606 seconds 
+  Import took 0.061550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.283295 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/5-MassBlock_TheHangedMan.asset
+  artifactKey: Guid(ff477c5a86ad240fa9326f6eeb683034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/5-MassBlock_TheHangedMan.asset using Guid(ff477c5a86ad240fa9326f6eeb683034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eda2f3e3784ccd607eea03d36933230') in 0.005228 seconds 
+  Import took 0.027627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.707507 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/6-MassBlock_TheHangedMan.asset
+  artifactKey: Guid(ff477c5a86ad240fa9326f6eeb683034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/6-MassBlock_TheHangedMan.asset using Guid(ff477c5a86ad240fa9326f6eeb683034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82afad8501faac6e0bb58e617181481') in 0.005455 seconds 
+  Import took 0.021254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.123082 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/5-Mana_TheMagician.asset
+  artifactKey: Guid(ad773dd18b2bb419db6043b0db21bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/5-Mana_TheMagician.asset using Guid(ad773dd18b2bb419db6043b0db21bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe13b109d4c7d268fe1e6956f02194a') in 0.004925 seconds 
+  Import took 0.033169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1870.965889 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/6-MassBlock_TheHangedMan 1.asset
+  artifactKey: Guid(f3bbf3660763e49e5b18ff054db1753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/6-MassBlock_TheHangedMan 1.asset using Guid(f3bbf3660763e49e5b18ff054db1753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de7cc451453ce240e6c74f0a8184dea') in 0.020715 seconds 
+  Import took 0.126063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.218254 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/7-MassIncrease_TheHermit.asset
+  artifactKey: Guid(f3bbf3660763e49e5b18ff054db1753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/7-MassIncrease_TheHermit.asset using Guid(f3bbf3660763e49e5b18ff054db1753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7008b47838ad657438999f8294ecd3d1') in 0.005458 seconds 
+  Import took 0.037066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4082.807903 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/6-MassBlock_TheHangedMan.asset
+  artifactKey: Guid(ff477c5a86ad240fa9326f6eeb683034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/6-MassBlock_TheHangedMan.asset using Guid(ff477c5a86ad240fa9326f6eeb683034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c0bce666dc58b3eca6d87cc5964fa9') in 0.013898 seconds 
+  Import took 0.074663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.508438 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/7-MassIncrease_TheHermit 1.asset
+  artifactKey: Guid(3afca49c71d6745a797efd8eaf78de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/7-MassIncrease_TheHermit 1.asset using Guid(3afca49c71d6745a797efd8eaf78de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27abcc41c88a6a185bc21ed9d2442eae') in 0.008121 seconds 
+  Import took 0.079579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 219.662134 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/7-Block_Increase_TheHighPriestess.asset
+  artifactKey: Guid(3afca49c71d6745a797efd8eaf78de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/7-Block_Increase_TheHighPriestess.asset using Guid(3afca49c71d6745a797efd8eaf78de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9836f3bfd7fc4789cf096c163e7b56e') in 0.005186 seconds 
+  Import took 0.067039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.262757 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/8-Block_Increase_TheHighPriestess.asset
+  artifactKey: Guid(3afca49c71d6745a797efd8eaf78de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/8-Block_Increase_TheHighPriestess.asset using Guid(3afca49c71d6745a797efd8eaf78de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a24eeb590a1180292010f16855c1868') in 0.005254 seconds 
+  Import took 0.070652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.981538 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/7-MassIncrease_TheHermit.asset
+  artifactKey: Guid(f3bbf3660763e49e5b18ff054db1753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/7-MassIncrease_TheHermit.asset using Guid(f3bbf3660763e49e5b18ff054db1753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ad9eb6d6811e33b904a72a2b8ec610') in 0.005657 seconds 
+  Import took 0.044221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 522.969525 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/8-Block_IncreaseHP_TheHighPriestess.asset
+  artifactKey: Guid(3afca49c71d6745a797efd8eaf78de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/8-Block_IncreaseHP_TheHighPriestess.asset using Guid(3afca49c71d6745a797efd8eaf78de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15b26b8b65e73a4c0d8a0f43c66434e') in 0.019900 seconds 
+  Import took 0.077432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 536.840840 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/5-Mana_TheMagician.asset
+  artifactKey: Guid(ad773dd18b2bb419db6043b0db21bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/5-Mana_TheMagician.asset using Guid(ad773dd18b2bb419db6043b0db21bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1888a786d4b1d0a1aff0cf5eb33d8b1e') in 0.009151 seconds 
+  Import took 0.077146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 764.044201 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/8-Block_IncreaseHP_TheHighPriestess 1.asset
+  artifactKey: Guid(0482d4d95d23649d2a8db3eec6497bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/8-Block_IncreaseHP_TheHighPriestess 1.asset using Guid(0482d4d95d23649d2a8db3eec6497bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cd3f460398217e66439fe7458b5ce6') in 0.017958 seconds 
+  Import took 0.119635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.336034 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/9-Block_Heal_TheEmpress.asset
+  artifactKey: Guid(0482d4d95d23649d2a8db3eec6497bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/9-Block_Heal_TheEmpress.asset using Guid(0482d4d95d23649d2a8db3eec6497bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a654386bc2e4974cbb633e611ce42b8') in 0.005379 seconds 
+  Import took 0.095199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.260614 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/8-Block_IncreaseHP_TheHighPriestess.asset
+  artifactKey: Guid(3afca49c71d6745a797efd8eaf78de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/8-Block_IncreaseHP_TheHighPriestess.asset using Guid(3afca49c71d6745a797efd8eaf78de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f7c85678cca035894dce85e3878c50') in 0.005971 seconds 
+  Import took 0.073649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.261302 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/9-Block_Heal_TheEmpress 1.asset
+  artifactKey: Guid(2e2d193739b7f495387fea5dafad16f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/9-Block_Heal_TheEmpress 1.asset using Guid(2e2d193739b7f495387fea5dafad16f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d660bd2246495af01117cd0cc0010b3') in 0.006361 seconds 
+  Import took 0.037340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.086741 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/10-Block_Attack_TheEmperor.asset
+  artifactKey: Guid(2e2d193739b7f495387fea5dafad16f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/10-Block_Attack_TheEmperor.asset using Guid(2e2d193739b7f495387fea5dafad16f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cf8023209c8c5ff4329200dc17bc48') in 0.007329 seconds 
+  Import took 0.011506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.675925 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/8-Block_IncreaseHP_TheHighPriestess.asset
+  artifactKey: Guid(3afca49c71d6745a797efd8eaf78de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/8-Block_IncreaseHP_TheHighPriestess.asset using Guid(3afca49c71d6745a797efd8eaf78de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841cfdac1943bd03e3a4af969da95687') in 0.008986 seconds 
+  Import took 0.143174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.722180 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/9-Block_Heal_TheEmpress.asset
+  artifactKey: Guid(0482d4d95d23649d2a8db3eec6497bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/9-Block_Heal_TheEmpress.asset using Guid(0482d4d95d23649d2a8db3eec6497bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef492ad2bac9ee0639d52a3dba71d226') in 0.009809 seconds 
+  Import took 0.035996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1396.027222 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/10-Block_Attack_TheEmperor 1.asset
+  artifactKey: Guid(10018faa6d44c4158a2a6ca2326e0338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/10-Block_Attack_TheEmperor 1.asset using Guid(10018faa6d44c4158a2a6ca2326e0338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3a0622ffd28ef51ee66fe28c62bcd7') in 0.023303 seconds 
+  Import took 0.075621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.613510 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/11-Block_IncreaseStrength_TheHierophant.asset
+  artifactKey: Guid(10018faa6d44c4158a2a6ca2326e0338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/11-Block_IncreaseStrength_TheHierophant.asset using Guid(10018faa6d44c4158a2a6ca2326e0338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8841c9f04590116354d38deda381817f') in 0.007281 seconds 
+  Import took 0.040978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 565.788180 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/10-Block_Attack_TheEmperor.asset
+  artifactKey: Guid(2e2d193739b7f495387fea5dafad16f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/10-Block_Attack_TheEmperor.asset using Guid(2e2d193739b7f495387fea5dafad16f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c600eedaa85d42cdff8174bc5ac30e6') in 0.013246 seconds 
+  Import took 0.157566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.301686 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/11-Block_IncreaseStrength_TheHierophant 1.asset
+  artifactKey: Guid(ec8f72d8e537940c088db95347247ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/11-Block_IncreaseStrength_TheHierophant 1.asset using Guid(ec8f72d8e537940c088db95347247ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f528958b27fbd560177e6b33eb6fec') in 0.010900 seconds 
+  Import took 0.033579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.462967 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/12-Block_IncreaseStrength_TheHierophant 1.asset
+  artifactKey: Guid(ec8f72d8e537940c088db95347247ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/12-Block_IncreaseStrength_TheHierophant 1.asset using Guid(ec8f72d8e537940c088db95347247ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060f6fa13d87fbc46420dda1367bde91') in 0.005489 seconds 
+  Import took 0.052079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.397345 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/12-FastAttack_Death.asset
+  artifactKey: Guid(ec8f72d8e537940c088db95347247ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/12-FastAttack_Death.asset using Guid(ec8f72d8e537940c088db95347247ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591357cd8462d20f379e31d07b7dd66d') in 0.005296 seconds 
+  Import took 0.068997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 662.501180 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/12-FastAttack_Death 1.asset
+  artifactKey: Guid(57edc17921a754d92ae919b945d871d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/12-FastAttack_Death 1.asset using Guid(57edc17921a754d92ae919b945d871d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bf80ed86bc9bf110c146afcb395fa4') in 0.023226 seconds 
+  Import took 0.101018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.032863 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/12-LifeSteal_TheDevil.asset
+  artifactKey: Guid(57edc17921a754d92ae919b945d871d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/12-LifeSteal_TheDevil.asset using Guid(57edc17921a754d92ae919b945d871d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735474c42ba40569038fd31f53f935d9') in 0.007997 seconds 
+  Import took 0.011786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.478737 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/13-LifeSteal_TheDevil.asset
+  artifactKey: Guid(57edc17921a754d92ae919b945d871d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/13-LifeSteal_TheDevil.asset using Guid(57edc17921a754d92ae919b945d871d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887b44f27bb7d29e73da2dc34e79540e') in 0.008230 seconds 
+  Import took 0.011930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.502493 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/12-FastAttack_Death.asset
+  artifactKey: Guid(ec8f72d8e537940c088db95347247ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/12-FastAttack_Death.asset using Guid(ec8f72d8e537940c088db95347247ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef73f291f46ef7a5b551174f550a54e') in 0.009256 seconds 
+  Import took 0.012963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.452316 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/13-LifeSteal_TheDevil 1.asset
+  artifactKey: Guid(f28d5d20035ae4f87b4307f9ae907895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/13-LifeSteal_TheDevil 1.asset using Guid(f28d5d20035ae4f87b4307f9ae907895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83087a5708de5e00a31b7d733c00573c') in 0.011590 seconds 
+  Import took 0.095098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.459960 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/14-MassAttack_TheTower.asset
+  artifactKey: Guid(f28d5d20035ae4f87b4307f9ae907895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/14-MassAttack_TheTower.asset using Guid(f28d5d20035ae4f87b4307f9ae907895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd127353c21ae3db26160120216e056f0') in 0.008964 seconds 
+  Import took 0.061520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 195.607975 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/13-LifeSteal_TheDevil.asset
+  artifactKey: Guid(57edc17921a754d92ae919b945d871d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/13-LifeSteal_TheDevil.asset using Guid(57edc17921a754d92ae919b945d871d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45093b57cd9e34185ca080ce4d262ace') in 0.014834 seconds 
+  Import took 0.047142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 699.650427 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/14-MassAttack_TheTower 1.asset
+  artifactKey: Guid(21c0ffde615db4221854f991f865cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/14-MassAttack_TheTower 1.asset using Guid(21c0ffde615db4221854f991f865cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08a9ca9d9b41f8cc8d1403c95b9a1d7') in 0.014274 seconds 
+  Import took 0.122694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 175.345797 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/15-Attack_IncreaseHP_Judgement.asset
+  artifactKey: Guid(21c0ffde615db4221854f991f865cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/15-Attack_IncreaseHP_Judgement.asset using Guid(21c0ffde615db4221854f991f865cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154e72673c4e5f996a324e8e4a24061e') in 0.004732 seconds 
+  Import took 0.023364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.257929 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/14-MassAttack_TheTower.asset
+  artifactKey: Guid(f28d5d20035ae4f87b4307f9ae907895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/14-MassAttack_TheTower.asset using Guid(f28d5d20035ae4f87b4307f9ae907895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0df8f688df7015e94edb28bbcbd56a4') in 0.005735 seconds 
+  Import took 0.009943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.443928 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/15-Attack_IncreaseHP_Judgement 1.asset
+  artifactKey: Guid(45cdad2bb72844dcbbc7455fb89eeaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/15-Attack_IncreaseHP_Judgement 1.asset using Guid(45cdad2bb72844dcbbc7455fb89eeaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c187012a20b1d7ac9985afcefca0ec') in 0.014223 seconds 
+  Import took 0.036328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.894061 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/15-Attack_IncreaseHP_Judgement.asset
+  artifactKey: Guid(21c0ffde615db4221854f991f865cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/15-Attack_IncreaseHP_Judgement.asset using Guid(21c0ffde615db4221854f991f865cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629ca7f99193d4e8d1d481f37d121ae6') in 0.004745 seconds 
+  Import took 0.024588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.883193 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/14-MassAttack_TheTower.asset
+  artifactKey: Guid(f28d5d20035ae4f87b4307f9ae907895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/14-MassAttack_TheTower.asset using Guid(f28d5d20035ae4f87b4307f9ae907895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a09d375cc96bb7c18bd6edb26913e37') in 0.013001 seconds 
+  Import took 0.046025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.161050 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/7-MassIncrease_TheHermit.asset
+  artifactKey: Guid(f3bbf3660763e49e5b18ff054db1753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/7-MassIncrease_TheHermit.asset using Guid(f3bbf3660763e49e5b18ff054db1753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1818f770cbc72b0581858bbf55be1e') in 0.006180 seconds 
+  Import took 0.109231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.068702 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/zzz.asset
+  artifactKey: Guid(45cdad2bb72844dcbbc7455fb89eeaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/zzz.asset using Guid(45cdad2bb72844dcbbc7455fb89eeaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1d56d474ddf16a1916a4a9d5645eb2') in 0.006209 seconds 
+  Import took 0.123513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.410661 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/16-Heal_IncreaseStrength_TheStar.asset
+  artifactKey: Guid(45cdad2bb72844dcbbc7455fb89eeaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/16-Heal_IncreaseStrength_TheStar.asset using Guid(45cdad2bb72844dcbbc7455fb89eeaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0507f81060fc229266d512536af83a6a') in 0.005274 seconds 
+  Import took 0.008996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 202.993389 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/16-Heal_IncreaseStrength_TheStar.asset
+  artifactKey: Guid(45cdad2bb72844dcbbc7455fb89eeaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/16-Heal_IncreaseStrength_TheStar.asset using Guid(45cdad2bb72844dcbbc7455fb89eeaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1430205411eca281faa08d48dfb8e41') in 0.007094 seconds 
+  Import took 0.048218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.981963 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/15-Attack_IncreaseHP_Judgement.asset
+  artifactKey: Guid(21c0ffde615db4221854f991f865cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/15-Attack_IncreaseHP_Judgement.asset using Guid(21c0ffde615db4221854f991f865cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae1f0f02cd139dd81f396bd48cfcdf9') in 0.011233 seconds 
+  Import took 0.058585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.261676 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/16-Heal_IncreaseStrength_TheStar 1.asset
+  artifactKey: Guid(ed547b0ecac3d413c8efe3b510accdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/16-Heal_IncreaseStrength_TheStar 1.asset using Guid(ed547b0ecac3d413c8efe3b510accdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6d9d4a338065f45514f8379eeea98f') in 0.009207 seconds 
+  Import took 0.070835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.475909 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/17-Heal_AddMana_TheMoon.asset
+  artifactKey: Guid(ed547b0ecac3d413c8efe3b510accdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/17-Heal_AddMana_TheMoon.asset using Guid(ed547b0ecac3d413c8efe3b510accdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ea5806164fe8e0930622e585746b1d') in 0.009444 seconds 
+  Import took 0.036930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.623464 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/11-Block_IncreaseStrength_TheHierophant.asset
+  artifactKey: Guid(10018faa6d44c4158a2a6ca2326e0338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/11-Block_IncreaseStrength_TheHierophant.asset using Guid(10018faa6d44c4158a2a6ca2326e0338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e338ab97778283578e2bc51e48ae83') in 0.005844 seconds 
+  Import took 0.009852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.705137 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/13-LifeSteal_TheDevil.asset
+  artifactKey: Guid(57edc17921a754d92ae919b945d871d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/13-LifeSteal_TheDevil.asset using Guid(57edc17921a754d92ae919b945d871d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae4bbdca3a6fc56fe6defa915ca8a90') in 0.009125 seconds 
+  Import took 0.060976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.489553 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/16-Heal_IncreaseStrength_TheStar.asset
+  artifactKey: Guid(45cdad2bb72844dcbbc7455fb89eeaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/16-Heal_IncreaseStrength_TheStar.asset using Guid(45cdad2bb72844dcbbc7455fb89eeaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6321261d0c7957e97c5757d5de757d') in 0.009730 seconds 
+  Import took 0.056169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.464655 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/17-Heal_AddMana_TheMoon 1.asset
+  artifactKey: Guid(2baa48e2a196e438ebe04639e8843dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/17-Heal_AddMana_TheMoon 1.asset using Guid(2baa48e2a196e438ebe04639e8843dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9ee55d483039cd87235a677648929d') in 0.007334 seconds 
+  Import took 0.023197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.870474 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/18-MassHeal_TheSun.asset
+  artifactKey: Guid(2baa48e2a196e438ebe04639e8843dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/18-MassHeal_TheSun.asset using Guid(2baa48e2a196e438ebe04639e8843dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2808e08c9ef15280e157a0873c691d43') in 0.008016 seconds 
+  Import took 0.047171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5202.124710 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/17-Heal_AddMana_TheMoon.asset
+  artifactKey: Guid(ed547b0ecac3d413c8efe3b510accdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/17-Heal_AddMana_TheMoon.asset using Guid(ed547b0ecac3d413c8efe3b510accdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c205a6716ccdb42455d099b9936d56') in 0.127109 seconds 
+  Import took 0.356640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 202.567798 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/18-MassHeal_TheSun 1.asset
+  artifactKey: Guid(50e933d75b46740a1ba32571c5c37a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/18-MassHeal_TheSun 1.asset using Guid(50e933d75b46740a1ba32571c5c37a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb61f3f9ce9ed4fb50774b41ca407bc0') in 0.018542 seconds 
+  Import took 0.084960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.226753 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/19-MasslLifeSteal_TheWorld.asset
+  artifactKey: Guid(50e933d75b46740a1ba32571c5c37a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/19-MasslLifeSteal_TheWorld.asset using Guid(50e933d75b46740a1ba32571c5c37a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1d3bfbcf6b88d907857cfd5b0d047f') in 0.005758 seconds 
+  Import took 0.010527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 732.732433 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/18-MassHeal_TheSun.asset
+  artifactKey: Guid(2baa48e2a196e438ebe04639e8843dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/18-MassHeal_TheSun.asset using Guid(2baa48e2a196e438ebe04639e8843dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411402367b0c9c917e38fcf719a445ef') in 0.005864 seconds 
+  Import took 0.011688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.022094 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/13-LifeSteal_TheDevil.asset
+  artifactKey: Guid(57edc17921a754d92ae919b945d871d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/13-LifeSteal_TheDevil.asset using Guid(57edc17921a754d92ae919b945d871d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cf009c82a648bb7542482000494b68') in 0.004655 seconds 
+  Import took 0.165797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.213111 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/19-MasslLifeSteal_TheWorld 1.asset
+  artifactKey: Guid(1f4e77385cd174fb39c12b7b4c8be2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/19-MasslLifeSteal_TheWorld 1.asset using Guid(1f4e77385cd174fb39c12b7b4c8be2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08a6d5048e9320d42e9f82ad35764f1') in 0.005851 seconds 
+  Import took 0.047915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.330243 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/20-IncreaseStrength_Strength.asset
+  artifactKey: Guid(1f4e77385cd174fb39c12b7b4c8be2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/20-IncreaseStrength_Strength.asset using Guid(1f4e77385cd174fb39c12b7b4c8be2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35715df71af16c7e9c582b76e3a4cfcc') in 0.005543 seconds 
+  Import took 0.076363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 300.182943 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/19-MasslLifeSteal_TheWorld.asset
+  artifactKey: Guid(50e933d75b46740a1ba32571c5c37a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/19-MasslLifeSteal_TheWorld.asset using Guid(50e933d75b46740a1ba32571c5c37a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d9fccb92aa8e0e6ac3fe0ca71996bf') in 0.005496 seconds 
+  Import took 0.060681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.720598 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/16-Heal_IncreaseStrength_TheStar.asset
+  artifactKey: Guid(45cdad2bb72844dcbbc7455fb89eeaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/16-Heal_IncreaseStrength_TheStar.asset using Guid(45cdad2bb72844dcbbc7455fb89eeaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee230de0f164e6e828e46c3ccbf755ea') in 0.006244 seconds 
+  Import took 0.011502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.002506 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/15-Attack_IncreaseHP_Judgement.asset
+  artifactKey: Guid(21c0ffde615db4221854f991f865cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/15-Attack_IncreaseHP_Judgement.asset using Guid(21c0ffde615db4221854f991f865cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3382e394d8729baf0157063c2022db') in 0.007116 seconds 
+  Import took 0.011532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 825.604133 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/20-IncreaseStrength_Strength 1.asset
+  artifactKey: Guid(3570074a65b92402c8f9937a1f6b0b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/20-IncreaseStrength_Strength 1.asset using Guid(3570074a65b92402c8f9937a1f6b0b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81806cb9a591370add4decf2087d5402') in 0.005671 seconds 
+  Import took 0.099000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.590348 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/21-IncreaseHP_Justice.asset
+  artifactKey: Guid(3570074a65b92402c8f9937a1f6b0b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/21-IncreaseHP_Justice.asset using Guid(3570074a65b92402c8f9937a1f6b0b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e88da4914bcd3b6b43f6fa296baf41') in 0.006016 seconds 
+  Import took 0.140496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 476.010326 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/20-IncreaseStrength_Strength.asset
+  artifactKey: Guid(1f4e77385cd174fb39c12b7b4c8be2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/20-IncreaseStrength_Strength.asset using Guid(1f4e77385cd174fb39c12b7b4c8be2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1ee7cece170aa1ee48bcf6f7c12035') in 0.013997 seconds 
+  Import took 0.128348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.357683 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/17-Heal_AddMana_TheMoon 1.asset
+  artifactKey: Guid(ca7cc7d44f99544da9128d644556b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/17-Heal_AddMana_TheMoon 1.asset using Guid(ca7cc7d44f99544da9128d644556b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08e82b9ad48cd4d946464f0ff118117') in 0.011628 seconds 
+  Import took 0.145610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.535042 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/22-Heal_IncreaseHP_Temperance.asset
+  artifactKey: Guid(ca7cc7d44f99544da9128d644556b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/22-Heal_IncreaseHP_Temperance.asset using Guid(ca7cc7d44f99544da9128d644556b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ec4d0347e194992a6536b3b8728716') in 0.007101 seconds 
+  Import took 0.079794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.564903 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/21-IncreaseHP_Justice.asset
+  artifactKey: Guid(3570074a65b92402c8f9937a1f6b0b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/21-IncreaseHP_Justice.asset using Guid(3570074a65b92402c8f9937a1f6b0b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42874cae6efc1465463a8a64958b1c22') in 0.004906 seconds 
+  Import took 0.059981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.341329 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/22-Heal_IncreaseHP_Temperance 1.asset
+  artifactKey: Guid(cad266032396644ea8ecca61a4ed357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/22-Heal_IncreaseHP_Temperance 1.asset using Guid(cad266032396644ea8ecca61a4ed357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2ed6c83f0ed4820b58f1e6f65724d4') in 0.006591 seconds 
+  Import took 0.035696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.421387 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/23-Draw_Heal_ TheLovers.asset
+  artifactKey: Guid(cad266032396644ea8ecca61a4ed357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/23-Draw_Heal_ TheLovers.asset using Guid(cad266032396644ea8ecca61a4ed357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2299a3c94308477c10cb0b94db45fb') in 0.005444 seconds 
+  Import took 0.128296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2274.922973 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/22-Heal_IncreaseHP_Temperance.asset
+  artifactKey: Guid(ca7cc7d44f99544da9128d644556b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/22-Heal_IncreaseHP_Temperance.asset using Guid(ca7cc7d44f99544da9128d644556b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c352e254e4c0785a367b7d36fc88a0d4') in 0.012640 seconds 
+  Import took 0.075836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 958.514584 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/23-Draw_Heal_ TheLovers 1.asset
+  artifactKey: Guid(0392e9d3ad09a4658bb07afdd1a4b1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/23-Draw_Heal_ TheLovers 1.asset using Guid(0392e9d3ad09a4658bb07afdd1a4b1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ebb592ec4aab33c8f99e9877189d3b') in 0.006719 seconds 
+  Import took 0.064948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.485282 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/24-Draw_Damage_ TheChariot.asset
+  artifactKey: Guid(0392e9d3ad09a4658bb07afdd1a4b1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/24-Draw_Damage_ TheChariot.asset using Guid(0392e9d3ad09a4658bb07afdd1a4b1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bf1c03ad07726539bf176b2df27c4d') in 0.021680 seconds 
+  Import took 0.028854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.166790 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/24-Draw_Damage_ TheChariot 1.asset
+  artifactKey: Guid(2fbd218fb258043fbb74a97142b90060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/24-Draw_Damage_ TheChariot 1.asset using Guid(2fbd218fb258043fbb74a97142b90060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00755c3968eaa7cbc6a619c75caa808e') in 0.007557 seconds 
+  Import took 0.069425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.452951 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards/9-Attack_LifeSteal.asset
+  artifactKey: Guid(ffd3079242e164645ba9365c7c965def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards/9-Attack_LifeSteal.asset using Guid(ffd3079242e164645ba9365c7c965def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a18a2f79817e9bac94f31309f522fe') in 0.253212 seconds 
+  Import took 0.306737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.702445 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/24-Draw_Damage_ TheChariot.asset
+  artifactKey: Guid(0392e9d3ad09a4658bb07afdd1a4b1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/24-Draw_Damage_ TheChariot.asset using Guid(0392e9d3ad09a4658bb07afdd1a4b1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a27ad3763153312a5def00b71152ab') in 0.011101 seconds 
+  Import took 0.015276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.942769 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/24-Draw_ WheelOfFortune.asset
+  artifactKey: Guid(2fbd218fb258043fbb74a97142b90060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/24-Draw_ WheelOfFortune.asset using Guid(2fbd218fb258043fbb74a97142b90060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03569834ea10ecaaf57a7b01c7e3f14') in 0.006112 seconds 
+  Import took 0.083646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.561314 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/25-Draw_ WheelOfFortune.asset
+  artifactKey: Guid(2fbd218fb258043fbb74a97142b90060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/25-Draw_ WheelOfFortune.asset using Guid(2fbd218fb258043fbb74a97142b90060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f4817a43887668299ee86f97461a71') in 0.006369 seconds 
+  Import took 0.010562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.231751 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/7-MassIncrease_TheHermit.asset
+  artifactKey: Guid(f3bbf3660763e49e5b18ff054db1753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/7-MassIncrease_TheHermit.asset using Guid(f3bbf3660763e49e5b18ff054db1753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307498b3ecdbb3ef871d552054fd9b78') in 0.006667 seconds 
+  Import took 0.174820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.939843 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/23-Draw_Heal_ TheLovers.asset
+  artifactKey: Guid(cad266032396644ea8ecca61a4ed357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/23-Draw_Heal_ TheLovers.asset using Guid(cad266032396644ea8ecca61a4ed357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1d509aa691ef413bfc3269ce59866b') in 0.004354 seconds 
+  Import took 0.115846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.362110 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/25-Draw_ WheelOfFortune.asset
+  artifactKey: Guid(2fbd218fb258043fbb74a97142b90060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/25-Draw_ WheelOfFortune.asset using Guid(2fbd218fb258043fbb74a97142b90060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f586999d45bbd8f07bfd65dec79db5c') in 0.007526 seconds 
+  Import took 0.067263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.341413 seconds.
+  path: Assets/NueGames/NueDeck/Data
+  artifactKey: Guid(9ad4d7956a803fa4594126fee8719009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data using Guid(9ad4d7956a803fa4594126fee8719009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6820c9b18cc7e046de06de5e63124163') in 0.010918 seconds 
+  Import took 0.052256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.645987 seconds.
+  path: Assets/NueGames/NueDeck/Data/Decks
+  artifactKey: Guid(fe0dd5389932db14dbe666460f913101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Decks using Guid(fe0dd5389932db14dbe666460f913101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6d248806e6f0056cf13aea799c6089') in 0.001486 seconds 
+  Import took 0.005405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4645.742571 seconds.
+  path: Assets/NueGames/NueDeck/Data/Decks/DeckOfPower.asset
+  artifactKey: Guid(2f74fdcc733474678a2e438b66731974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Decks/DeckOfPower.asset using Guid(2f74fdcc733474678a2e438b66731974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de2485b83502245a4383c098d6cd494') in 0.228736 seconds 
+  Import took 0.324552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.554793 seconds.
+  path: Assets/NueGames/NueDeck/Data/Settings
+  artifactKey: Guid(d476ebc58a12a4f4284317aabfc36917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Settings using Guid(d476ebc58a12a4f4284317aabfc36917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf37fe33add1ce1ab8c26d16fb0cfeb') in 0.003297 seconds 
+  Import took 0.112884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.800015 seconds.
+  path: Assets/NueGames/NueDeck/Data/Settings/Gameplay Settings.asset
+  artifactKey: Guid(1ff5bb128064a2d449207d35299f803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Settings/Gameplay Settings.asset using Guid(1ff5bb128064a2d449207d35299f803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab588c14a7f9acda88e0c890de7b5236') in 1.682312 seconds 
+  Import took 1.689196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 181.277665 seconds.
+  path: Assets/NueGames/NueDeck/Data/Settings/Scene Data.asset
+  artifactKey: Guid(5ae2ae3ff5f3b8349b31eea9f8fd748e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Settings/Scene Data.asset using Guid(5ae2ae3ff5f3b8349b31eea9f8fd748e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2be20d2ebbfa35824360a13fd03900a') in 0.050534 seconds 
+  Import took 0.109485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 213.515291 seconds.
+  path: Assets/NueGames/NueDeck/Data/Settings/Gameplay Settings.asset
+  artifactKey: Guid(1ff5bb128064a2d449207d35299f803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Settings/Gameplay Settings.asset using Guid(1ff5bb128064a2d449207d35299f803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd727e78df69113df8312e4d4e92232f8') in 0.606864 seconds 
+  Import took 0.734632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 210.845666 seconds.
+  path: Assets/NueGames/NueDeck/Data/Decks/DeckOfPower.asset
+  artifactKey: Guid(2f74fdcc733474678a2e438b66731974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Decks/DeckOfPower.asset using Guid(2f74fdcc733474678a2e438b66731974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a472c73b39a320168e88cafd13e8594') in 0.007026 seconds 
+  Import took 0.012743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.347385 seconds.
+  path: Assets/NueGames/NueDeck/Data/Decks/InitalDeck.asset
+  artifactKey: Guid(1f1db59d6dc1c1046b2ad72c336c615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Decks/InitalDeck.asset using Guid(1f1db59d6dc1c1046b2ad72c336c615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ecfde37dcdeca797af7bc81c7fa4c6') in 0.032305 seconds 
+  Import took 0.036057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.959265 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Background
+  artifactKey: Guid(f07a5e147a6f30344933fea99b76ef83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Background using Guid(f07a5e147a6f30344933fea99b76ef83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fbcd68e7b231040dd87debac58651d') in 0.005993 seconds 
+  Import took 0.009888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.418417 seconds.
+  path: Assets/NueGames/NueDeck/Prefabs/Core
+  artifactKey: Guid(959cbdf9568a5e544871c64cd73264f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Prefabs/Core using Guid(959cbdf9568a5e544871c64cd73264f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12b67f8e817e0117f0b622940eb3a3f') in 0.002362 seconds 
+  Import took 0.039571 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.431506 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2024-10-09 22:57:21.066 Unity[15644:491043] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fe31537de50 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3942ms)
+		BeginReloadAssembly (676ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (143ms)
+		EndReloadAssembly (3197ms)
+			LoadAssemblies (2629ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (342ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (445ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 445.8 MB.
+System memory in use after: 445.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2914.
+Total: 2.944220 ms (FindLiveObjects: 0.226669 ms CreateObjectMapping: 0.092286 ms MarkObjects: 2.460157 ms  DeleteObjects: 0.164457 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 428.830332 seconds.
+  path: Assets/NueGames/NueDeck/Data/Decks/DeckOfBalance.asset
+  artifactKey: Guid(8fe4faed4352240ac908a0b0fd5fe6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Decks/DeckOfBalance.asset using Guid(8fe4faed4352240ac908a0b0fd5fe6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a660d0106b69e4dd74f6fb9c74ef73c2') in 0.032523 seconds 
+  Import took 0.065618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 836.189423 seconds.
+  path: Assets/NueGames/NueDeck/Data/Decks/DeckOfFate.asset
+  artifactKey: Guid(93a380afbe4aa49968492d542151f5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Decks/DeckOfFate.asset using Guid(93a380afbe4aa49968492d542151f5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3373a0f6e68164ef29073e08abd475c3') in 0.017955 seconds 
+  Import took 0.079105 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.264662 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2024-10-10 00:12:48.399 Unity[15644:491043] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fe3153352e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.779 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3796ms)
+		BeginReloadAssembly (602ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (112ms)
+		EndReloadAssembly (3019ms)
+			LoadAssemblies (2426ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (370ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 448.2 MB.
+System memory in use after: 448.3 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2916.
+Total: 5.454230 ms (FindLiveObjects: 0.211897 ms CreateObjectMapping: 0.077839 ms MarkObjects: 2.443130 ms  DeleteObjects: 2.720617 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10601.156832 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/19-MasslLifeSteal_TheWorld.asset
+  artifactKey: Guid(50e933d75b46740a1ba32571c5c37a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/19-MasslLifeSteal_TheWorld.asset using Guid(50e933d75b46740a1ba32571c5c37a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca5cafe40cb680d10aa04a003f6e676') in 0.343453 seconds 
+  Import took 0.568593 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.257822 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2024-10-10 10:13:31.748 Unity[15644:491043] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fe30dced850 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.683 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3716ms)
+		BeginReloadAssembly (668ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (2977ms)
+			LoadAssemblies (2369ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (393ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 450.6 MB.
+System memory in use after: 450.7 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2918.
+Total: 5.005318 ms (FindLiveObjects: 1.836567 ms CreateObjectMapping: 0.116863 ms MarkObjects: 2.910375 ms  DeleteObjects: 0.140792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5188.839166 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/17-Heal_AddMana_TheMoon.asset
+  artifactKey: Guid(ed547b0ecac3d413c8efe3b510accdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/17-Heal_AddMana_TheMoon.asset using Guid(ed547b0ecac3d413c8efe3b510accdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc06a41a1c27ee1305ac7da437ce0958') in 0.205839 seconds 
+  Import took 0.440394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 741.845752 seconds.
+  path: Assets/NueGames/NueDeck/Data/Rewards/Card Reward Data.asset
+  artifactKey: Guid(6cecd2669f04dbf40be0053e0a29c0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Rewards/Card Reward Data.asset using Guid(6cecd2669f04dbf40be0053e0a29c0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4508aafa174cce6ccec0df5f33449444') in 0.151133 seconds 
+  Import took 0.188181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.042480 seconds.
+  path: Assets/NueGames
+  artifactKey: Guid(5b2f79e74c8354780827ff85d3bfc404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames using Guid(5b2f79e74c8354780827ff85d3bfc404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac519b1f7f535ffce89b34a83a6a956') in 0.058878 seconds 
+  Import took 0.148190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.854448 seconds.
+  path: Assets/NueGames/NueDeck/Data/Settings/Gameplay Settings.asset
+  artifactKey: Guid(1ff5bb128064a2d449207d35299f803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Settings/Gameplay Settings.asset using Guid(1ff5bb128064a2d449207d35299f803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9332c4b56604e2aae50ef460e90695') in 1.138730 seconds 
+  Import took 1.151182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.305044 seconds.
+  path: Assets/NueGames/NueDeck/Data/Decks/DeckOfBalance.asset
+  artifactKey: Guid(8fe4faed4352240ac908a0b0fd5fe6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Decks/DeckOfBalance.asset using Guid(8fe4faed4352240ac908a0b0fd5fe6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d4a8ec0b9ea0b8a9dc6eea5cb9fd83') in 0.021357 seconds 
+  Import took 0.053215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.541517 seconds.
+  path: Assets/NueGames/NueDeck/Data/Decks/DeckOfFate.asset
+  artifactKey: Guid(93a380afbe4aa49968492d542151f5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Decks/DeckOfFate.asset using Guid(93a380afbe4aa49968492d542151f5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7bb7d7fc87e8fb858cfc28322d3eb6') in 0.008307 seconds 
+  Import took 0.015407 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.266225 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2024-10-10 11:54:08.611 Unity[15644:491043] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fe3153fa250 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.788 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3812ms)
+		BeginReloadAssembly (656ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (148ms)
+		EndReloadAssembly (3096ms)
+			LoadAssemblies (2349ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (524ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (209ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 453.2 MB.
+System memory in use after: 453.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2920.
+Total: 3.123963 ms (FindLiveObjects: 0.232819 ms CreateObjectMapping: 0.104486 ms MarkObjects: 2.597957 ms  DeleteObjects: 0.187885 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 123.291896 seconds.
+  path: Assets/NueGames/NueDeck/Data/Decks/DeckOfBalance.asset
+  artifactKey: Guid(8fe4faed4352240ac908a0b0fd5fe6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Decks/DeckOfBalance.asset using Guid(8fe4faed4352240ac908a0b0fd5fe6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4056584f3a2ec3a76d318130a2e4fb1') in 0.026450 seconds 
+  Import took 0.046003 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.370573 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2024-10-10 11:58:21.315 Unity[15644:491043] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fe3153132b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.587 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3588ms)
+		BeginReloadAssembly (484ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (109ms)
+		EndReloadAssembly (3032ms)
+			LoadAssemblies (2191ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (439ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (476ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 455.7 MB.
+System memory in use after: 455.7 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2922.
+Total: 3.204834 ms (FindLiveObjects: 0.247951 ms CreateObjectMapping: 0.100736 ms MarkObjects: 2.719426 ms  DeleteObjects: 0.135110 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 558.415175 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/14-MassAttack_TheTower.asset
+  artifactKey: Guid(f28d5d20035ae4f87b4307f9ae907895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/14-MassAttack_TheTower.asset using Guid(f28d5d20035ae4f87b4307f9ae907895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097ea49eeb2817b0a5b70bc3e55560f6') in 0.084825 seconds 
+  Import took 0.139152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 404.521015 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/18-MassHeal_TheSun.asset
+  artifactKey: Guid(2baa48e2a196e438ebe04639e8843dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/18-MassHeal_TheSun.asset using Guid(2baa48e2a196e438ebe04639e8843dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562d492fe98013c33b3071ad2cdc08e2') in 0.006820 seconds 
+  Import took 0.033960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.345122 seconds.
+  path: Assets/NueGames/NueDeck/Data/Settings/Gameplay Settings.asset
+  artifactKey: Guid(1ff5bb128064a2d449207d35299f803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Settings/Gameplay Settings.asset using Guid(1ff5bb128064a2d449207d35299f803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fcbb2758188938dee98b68e4868eee') in 0.671590 seconds 
+  Import took 0.676343 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.247282 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2024-10-10 12:14:33.349 Unity[15644:491043] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fe316dfc010 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.533 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3534ms)
+		BeginReloadAssembly (458ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (3014ms)
+			LoadAssemblies (2171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (420ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (489ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (260ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 458.2 MB.
+System memory in use after: 458.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2924.
+Total: 3.141352 ms (FindLiveObjects: 0.285569 ms CreateObjectMapping: 0.108371 ms MarkObjects: 2.607220 ms  DeleteObjects: 0.139423 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7384.712268 seconds.
+  path: Assets/NueGames/NueDeck/Data/Decks/DeckOfPower.asset
+  artifactKey: Guid(2f74fdcc733474678a2e438b66731974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Decks/DeckOfPower.asset using Guid(2f74fdcc733474678a2e438b66731974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b9b38eb5478967403a23dc05456030') in 0.538695 seconds 
+  Import took 0.968410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 449.066888 seconds.
+  path: Assets/NueGames/NueDeck/Data/Decks/DeckOfFate.asset
+  artifactKey: Guid(93a380afbe4aa49968492d542151f5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Decks/DeckOfFate.asset using Guid(93a380afbe4aa49968492d542151f5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781fdc9902e2bf2bcf3a67a72af9bf67') in 0.050768 seconds 
+  Import took 0.095387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.341071 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/2-Heal_AceOfCups.asset
+  artifactKey: Guid(d621d62ed745e4386a520118d20e05b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/2-Heal_AceOfCups.asset using Guid(d621d62ed745e4386a520118d20e05b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb57e7e9af546d05f9714dfdadd3330') in 0.045698 seconds 
+  Import took 0.100936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 143.741817 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/9-Block_Heal_TheEmpress.asset
+  artifactKey: Guid(0482d4d95d23649d2a8db3eec6497bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/9-Block_Heal_TheEmpress.asset using Guid(0482d4d95d23649d2a8db3eec6497bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9e233983f2755b93984ceea7c6a515') in 0.019749 seconds 
+  Import took 0.046518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.151054 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/16-Heal_IncreaseStrength_TheStar.asset
+  artifactKey: Guid(45cdad2bb72844dcbbc7455fb89eeaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/16-Heal_IncreaseStrength_TheStar.asset using Guid(45cdad2bb72844dcbbc7455fb89eeaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b5cb60af43e554e714f2913fd29f92') in 0.007516 seconds 
+  Import took 0.021889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.403188 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/3-Block_AceOfPentacles.asset
+  artifactKey: Guid(7f61fd4a32a9647cc981d1fcaa505ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/3-Block_AceOfPentacles.asset using Guid(7f61fd4a32a9647cc981d1fcaa505ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f9a6e8f605a56d2e7ecdc693a162a2') in 0.004987 seconds 
+  Import took 0.008888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.847066 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/5-Mana_TheMagician.asset
+  artifactKey: Guid(ad773dd18b2bb419db6043b0db21bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/5-Mana_TheMagician.asset using Guid(ad773dd18b2bb419db6043b0db21bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cbebf72596ef81de3506f06cf4d772') in 0.010028 seconds 
+  Import took 0.046654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.504739 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/6-MassBlock_TheHangedMan.asset
+  artifactKey: Guid(ff477c5a86ad240fa9326f6eeb683034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/6-MassBlock_TheHangedMan.asset using Guid(ff477c5a86ad240fa9326f6eeb683034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af444f2237dee9e5d9a557ece4ffeec') in 0.010897 seconds 
+  Import took 0.063419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.641006 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/7-MassIncrease_TheHermit.asset
+  artifactKey: Guid(f3bbf3660763e49e5b18ff054db1753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/7-MassIncrease_TheHermit.asset using Guid(f3bbf3660763e49e5b18ff054db1753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acbc47169f89cd075f5a6528b2100bc') in 0.006463 seconds 
+  Import took 0.027599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.961698 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/8-Block_IncreaseHP_TheHighPriestess.asset
+  artifactKey: Guid(3afca49c71d6745a797efd8eaf78de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/8-Block_IncreaseHP_TheHighPriestess.asset using Guid(3afca49c71d6745a797efd8eaf78de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2680d8b679407b05a0a755266b353f') in 0.015519 seconds 
+  Import took 0.020656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.991399 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/11-Block_IncreaseStrength_TheHierophant.asset
+  artifactKey: Guid(10018faa6d44c4158a2a6ca2326e0338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/11-Block_IncreaseStrength_TheHierophant.asset using Guid(10018faa6d44c4158a2a6ca2326e0338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a492185a1e9f50c9588191d87018f2') in 0.006091 seconds 
+  Import took 0.010760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 448.428299 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/12-FastAttack_Death.asset
+  artifactKey: Guid(ec8f72d8e537940c088db95347247ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/12-FastAttack_Death.asset using Guid(ec8f72d8e537940c088db95347247ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a975584b320834cb5ea6f6e2799b1afd') in 0.018558 seconds 
+  Import took 0.045563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.288111 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/14-MassAttack_TheTower.asset
+  artifactKey: Guid(f28d5d20035ae4f87b4307f9ae907895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/14-MassAttack_TheTower.asset using Guid(f28d5d20035ae4f87b4307f9ae907895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdb6589036106b063285df246ef0cb2') in 0.036464 seconds 
+  Import took 0.043818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.448529 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/15-Attack_IncreaseHP_Judgement.asset
+  artifactKey: Guid(21c0ffde615db4221854f991f865cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/15-Attack_IncreaseHP_Judgement.asset using Guid(21c0ffde615db4221854f991f865cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae77998d54acc49f93290c2491ad0d3') in 0.012107 seconds 
+  Import took 0.016044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 650.921860 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/19-MasslLifeSteal_TheWorld.asset
+  artifactKey: Guid(50e933d75b46740a1ba32571c5c37a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/19-MasslLifeSteal_TheWorld.asset using Guid(50e933d75b46740a1ba32571c5c37a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb6929c06b8e0c8073ebbca81ecef36') in 0.034102 seconds 
+  Import took 0.105285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.239218 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/20-IncreaseStrength_Strength.asset
+  artifactKey: Guid(1f4e77385cd174fb39c12b7b4c8be2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/20-IncreaseStrength_Strength.asset using Guid(1f4e77385cd174fb39c12b7b4c8be2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb6c80a6f33f307b83ff2c891b11674') in 0.010589 seconds 
+  Import took 0.016686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.638989 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/21-IncreaseHP_Justice.asset
+  artifactKey: Guid(3570074a65b92402c8f9937a1f6b0b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/21-IncreaseHP_Justice.asset using Guid(3570074a65b92402c8f9937a1f6b0b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7159049cc407f9623a4019f463535cad') in 0.009878 seconds 
+  Import took 0.039630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.856558 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/22-Heal_IncreaseHP_Temperance.asset
+  artifactKey: Guid(ca7cc7d44f99544da9128d644556b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/22-Heal_IncreaseHP_Temperance.asset using Guid(ca7cc7d44f99544da9128d644556b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546fe211f4b357125bc0a614a57f7dde') in 0.013441 seconds 
+  Import took 0.049067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.999663 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/23-Draw_Heal_ TheLovers.asset
+  artifactKey: Guid(cad266032396644ea8ecca61a4ed357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/23-Draw_Heal_ TheLovers.asset using Guid(cad266032396644ea8ecca61a4ed357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118540380339a573678dcdcc63e17139') in 0.006050 seconds 
+  Import took 0.012151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.644133 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/24-Draw_Damage_ TheChariot.asset
+  artifactKey: Guid(0392e9d3ad09a4658bb07afdd1a4b1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/24-Draw_Damage_ TheChariot.asset using Guid(0392e9d3ad09a4658bb07afdd1a4b1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379239f399169555ff555f4c23ca50ae') in 0.005913 seconds 
+  Import took 0.010545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.301082 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/25-Draw_ WheelOfFortune.asset
+  artifactKey: Guid(2fbd218fb258043fbb74a97142b90060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/25-Draw_ WheelOfFortune.asset using Guid(2fbd218fb258043fbb74a97142b90060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74dd6945c1ad19f1611810a59b6eaa5') in 0.021874 seconds 
+  Import took 0.089631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.745354 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/24-Draw_Damage_ TheChariot.asset
+  artifactKey: Guid(0392e9d3ad09a4658bb07afdd1a4b1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/24-Draw_Damage_ TheChariot.asset using Guid(0392e9d3ad09a4658bb07afdd1a4b1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf83ba7b537a0301455408d7150d3a3c') in 0.006691 seconds 
+  Import took 0.063221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 185.538815 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/18-MassHeal_TheSun.asset
+  artifactKey: Guid(2baa48e2a196e438ebe04639e8843dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/18-MassHeal_TheSun.asset using Guid(2baa48e2a196e438ebe04639e8843dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd3d3b3753b21c29057309cfbe4ba19') in 0.029810 seconds 
+  Import took 0.093457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.792792 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/19-MasslLifeSteal_TheWorld.asset
+  artifactKey: Guid(50e933d75b46740a1ba32571c5c37a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/19-MasslLifeSteal_TheWorld.asset using Guid(50e933d75b46740a1ba32571c5c37a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf3494cb77437ef7e0edcb83996c4fc') in 0.007920 seconds 
+  Import took 0.012311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.296432 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/13-LifeSteal_TheDevil.asset
+  artifactKey: Guid(57edc17921a754d92ae919b945d871d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/13-LifeSteal_TheDevil.asset using Guid(57edc17921a754d92ae919b945d871d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a5027a105c3fb9cd9e91a181951d2c') in 0.010492 seconds 
+  Import took 0.034004 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.412316 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2024-10-10 15:06:12.032 Unity[15644:491043] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fe31101b560 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  4.201 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4230ms)
+		BeginReloadAssembly (885ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (45ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (211ms)
+		EndReloadAssembly (3245ms)
+			LoadAssemblies (2594ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (376ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (595ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (239ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 460.7 MB.
+System memory in use after: 460.8 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2926.
+Total: 4.621152 ms (FindLiveObjects: 1.708092 ms CreateObjectMapping: 0.298861 ms MarkObjects: 2.482172 ms  DeleteObjects: 0.131183 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.178291 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2024-10-10 15:06:48.250 Unity[15644:491043] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fe316dfc160 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.774 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2779ms)
+		BeginReloadAssembly (317ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (2391ms)
+			LoadAssemblies (1593ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (421ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (372ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 463.0 MB.
+System memory in use after: 463.1 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2928.
+Total: 2.992942 ms (FindLiveObjects: 0.242900 ms CreateObjectMapping: 0.095399 ms MarkObjects: 2.549666 ms  DeleteObjects: 0.104215 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 570.288537 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/16-Heal_IncreaseStrength_TheStar.asset
+  artifactKey: Guid(45cdad2bb72844dcbbc7455fb89eeaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/16-Heal_IncreaseStrength_TheStar.asset using Guid(45cdad2bb72844dcbbc7455fb89eeaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457aa6eac2f2a313c647bf98fa7ff485') in 0.027885 seconds 
+  Import took 0.064200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.081375 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/8-Block_IncreaseHP_TheHighPriestess.asset
+  artifactKey: Guid(3afca49c71d6745a797efd8eaf78de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/8-Block_IncreaseHP_TheHighPriestess.asset using Guid(3afca49c71d6745a797efd8eaf78de12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9f144313901156b24e1666588716ce') in 0.005631 seconds 
+  Import took 0.010446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.935201 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/17-Heal_AddMana_TheMoon.asset
+  artifactKey: Guid(ed547b0ecac3d413c8efe3b510accdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/17-Heal_AddMana_TheMoon.asset using Guid(ed547b0ecac3d413c8efe3b510accdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ec28c1a7ba2eaeee5a52d48733ed5d') in 0.007026 seconds 
+  Import took 0.016849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 708.958127 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/1-Attack_AceOfSwords.asset
+  artifactKey: Guid(e556c3412100e40c7bd054aec2f1b507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/1-Attack_AceOfSwords.asset using Guid(e556c3412100e40c7bd054aec2f1b507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdeda50fdbb173e72f00831f00d7663') in 0.021306 seconds 
+  Import took 0.087650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.963257 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/3-Block_AceOfPentacles.asset
+  artifactKey: Guid(7f61fd4a32a9647cc981d1fcaa505ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/3-Block_AceOfPentacles.asset using Guid(7f61fd4a32a9647cc981d1fcaa505ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca0762dfc0ed07915405713cb8dc0d6') in 0.008027 seconds 
+  Import took 0.049290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.630768 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/4-LifeSteal_TheFool.asset
+  artifactKey: Guid(34e150d5d52d94bbe932aa9c74fd54d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/4-LifeSteal_TheFool.asset using Guid(34e150d5d52d94bbe932aa9c74fd54d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56539da8fecc6f0f489ee83e87c8acc') in 0.009505 seconds 
+  Import took 0.013671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.510998 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/7-MassIncrease_TheHermit.asset
+  artifactKey: Guid(f3bbf3660763e49e5b18ff054db1753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/7-MassIncrease_TheHermit.asset using Guid(f3bbf3660763e49e5b18ff054db1753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb3fea69a01f1dc0f0ba532a09fe7bd') in 0.004369 seconds 
+  Import took 0.020352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.627102 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/10-Block_Attack_TheEmperor.asset
+  artifactKey: Guid(2e2d193739b7f495387fea5dafad16f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/10-Block_Attack_TheEmperor.asset using Guid(2e2d193739b7f495387fea5dafad16f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c594f09e53239cc9a15a7c1ff768ae5') in 0.005414 seconds 
+  Import took 0.008989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.866524 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/11-Block_IncreaseStrength_TheHierophant.asset
+  artifactKey: Guid(10018faa6d44c4158a2a6ca2326e0338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/11-Block_IncreaseStrength_TheHierophant.asset using Guid(10018faa6d44c4158a2a6ca2326e0338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d2c4b5b4be19fa02f7583ecd8a9b43') in 0.008057 seconds 
+  Import took 0.062336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.915639 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/13-LifeSteal_TheDevil.asset
+  artifactKey: Guid(57edc17921a754d92ae919b945d871d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/13-LifeSteal_TheDevil.asset using Guid(57edc17921a754d92ae919b945d871d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524e28995b29dee9e43017a3fd5aad64') in 0.005263 seconds 
+  Import took 0.009119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.794008 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/14-MassAttack_TheTower.asset
+  artifactKey: Guid(f28d5d20035ae4f87b4307f9ae907895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/14-MassAttack_TheTower.asset using Guid(f28d5d20035ae4f87b4307f9ae907895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbb1f45be0463c819d6f28d9f3d494b') in 0.004094 seconds 
+  Import took 0.008117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.254690 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/15-Attack_IncreaseHP_Judgement.asset
+  artifactKey: Guid(21c0ffde615db4221854f991f865cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/15-Attack_IncreaseHP_Judgement.asset using Guid(21c0ffde615db4221854f991f865cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7541ce166bfbf891040ac6e8b26d03') in 0.004555 seconds 
+  Import took 0.008702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.089419 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/22-Heal_IncreaseHP_Temperance.asset
+  artifactKey: Guid(ca7cc7d44f99544da9128d644556b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/22-Heal_IncreaseHP_Temperance.asset using Guid(ca7cc7d44f99544da9128d644556b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2546d07acdff8714b3a7fcd7a3ebac68') in 0.004793 seconds 
+  Import took 0.049523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.031747 seconds.
+  path: Assets/NueGames/NueDeck/Data/Cards_New/23-Draw_Heal_ TheLovers.asset
+  artifactKey: Guid(cad266032396644ea8ecca61a4ed357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NueGames/NueDeck/Data/Cards_New/23-Draw_Heal_ TheLovers.asset using Guid(cad266032396644ea8ecca61a4ed357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2044b10665d5b33ef0f63d1291f32d05') in 0.007744 seconds 
+  Import took 0.011333 seconds .
+
