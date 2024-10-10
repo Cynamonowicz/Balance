@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4cc2cb8eaf4444790bf3249beca9ed4, type: 3}
+  m_Name: DeckOfBalance
+  m_EditorClassIdentifier: 
+  deckId: deck_of_balance
+  deckName: Deck Of Balance
+  cardList:
+  - {fileID: 11400000, guid: e556c3412100e40c7bd054aec2f1b507, type: 2}
+  - {fileID: 11400000, guid: e556c3412100e40c7bd054aec2f1b507, type: 2}
+  - {fileID: 11400000, guid: e556c3412100e40c7bd054aec2f1b507, type: 2}
+  - {fileID: 11400000, guid: e556c3412100e40c7bd054aec2f1b507, type: 2}
+  - {fileID: 11400000, guid: d621d62ed745e4386a520118d20e05b5, type: 2}
+  - {fileID: 11400000, guid: 7f61fd4a32a9647cc981d1fcaa505ac8, type: 2}
+  - {fileID: 11400000, guid: 7f61fd4a32a9647cc981d1fcaa505ac8, type: 2}
+  - {fileID: 11400000, guid: 7f61fd4a32a9647cc981d1fcaa505ac8, type: 2}
+  - {fileID: 11400000, guid: ff477c5a86ad240fa9326f6eeb683034, type: 2}
+  - {fileID: 11400000, guid: 0482d4d95d23649d2a8db3eec6497bd3, type: 2}
+  - {fileID: 11400000, guid: 3afca49c71d6745a797efd8eaf78de12, type: 2}
+  - {fileID: 11400000, guid: 45cdad2bb72844dcbbc7455fb89eeaa9, type: 2}

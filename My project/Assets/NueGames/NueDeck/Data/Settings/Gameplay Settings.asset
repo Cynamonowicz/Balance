@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01dd2752105b4ecbbc5e92d535616897, type: 3}
+  m_Name: Gameplay Settings
+  m_EditorClassIdentifier: 
+  drawCount: 5
+  maxMana: 3
+  initalAllyList:
+  - {fileID: 2835035829204582327, guid: 6472d62dc90afc04db103b9a3f293860, type: 3}
+  initalDeck: {fileID: 11400000, guid: 8fe4faed4352240ac908a0b0fd5fe6dc, type: 2}
+  maxCardOnHand: 10
+  allCardsList:
+  - {fileID: 11400000, guid: e556c3412100e40c7bd054aec2f1b507, type: 2}
+  - {fileID: 11400000, guid: d621d62ed745e4386a520118d20e05b5, type: 2}
+  - {fileID: 11400000, guid: 7f61fd4a32a9647cc981d1fcaa505ac8, type: 2}
+  - {fileID: 11400000, guid: 34e150d5d52d94bbe932aa9c74fd54d1, type: 2}
+  - {fileID: 11400000, guid: ad773dd18b2bb419db6043b0db21bd29, type: 2}
+  - {fileID: 11400000, guid: ff477c5a86ad240fa9326f6eeb683034, type: 2}
+  - {fileID: 11400000, guid: f3bbf3660763e49e5b18ff054db1753a, type: 2}
+  - {fileID: 11400000, guid: 3afca49c71d6745a797efd8eaf78de12, type: 2}
+  - {fileID: 11400000, guid: 0482d4d95d23649d2a8db3eec6497bd3, type: 2}
+  - {fileID: 11400000, guid: 2e2d193739b7f495387fea5dafad16f9, type: 2}
+  - {fileID: 11400000, guid: 10018faa6d44c4158a2a6ca2326e0338, type: 2}
+  - {fileID: 11400000, guid: ec8f72d8e537940c088db95347247ff9, type: 2}
+  - {fileID: 11400000, guid: 57edc17921a754d92ae919b945d871d7, type: 2}
+  - {fileID: 11400000, guid: f28d5d20035ae4f87b4307f9ae907895, type: 2}
+  - {fileID: 11400000, guid: 21c0ffde615db4221854f991f865cd65, type: 2}
+  - {fileID: 11400000, guid: 45cdad2bb72844dcbbc7455fb89eeaa9, type: 2}
+  - {fileID: 11400000, guid: ed547b0ecac3d413c8efe3b510accdb8, type: 2}
+  - {fileID: 11400000, guid: 2baa48e2a196e438ebe04639e8843dab, type: 2}
+  - {fileID: 11400000, guid: 50e933d75b46740a1ba32571c5c37a78, type: 2}
+  - {fileID: 11400000, guid: 1f4e77385cd174fb39c12b7b4c8be2ac, type: 2}
+  - {fileID: 11400000, guid: 3570074a65b92402c8f9937a1f6b0b46, type: 2}
+  - {fileID: 11400000, guid: ca7cc7d44f99544da9128d644556b316, type: 2}
+  - {fileID: 11400000, guid: cad266032396644ea8ecca61a4ed357a, type: 2}
+  - {fileID: 11400000, guid: 0392e9d3ad09a4658bb07afdd1a4b1a9, type: 2}
+  - {fileID: 11400000, guid: 2fbd218fb258043fbb74a97142b90060, type: 2}
+  cardPrefab: {fileID: 2689473134106589740, guid: a9728682a56595f4989b8f224d934689, type: 3}
+  defaultName: Nue
+  useStageSystem: 0
+  isRandomHand: 0
+  randomCardCount: 10

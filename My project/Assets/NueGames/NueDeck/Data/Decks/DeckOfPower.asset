@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4cc2cb8eaf4444790bf3249beca9ed4, type: 3}
+  m_Name: DeckOfPower
+  m_EditorClassIdentifier: 
+  deckId: deck_of_power
+  deckName: Deck Of Power
+  cardList:
+  - {fileID: 11400000, guid: e556c3412100e40c7bd054aec2f1b507, type: 2}
+  - {fileID: 11400000, guid: e556c3412100e40c7bd054aec2f1b507, type: 2}
+  - {fileID: 11400000, guid: e556c3412100e40c7bd054aec2f1b507, type: 2}
+  - {fileID: 11400000, guid: e556c3412100e40c7bd054aec2f1b507, type: 2}
+  - {fileID: 11400000, guid: d621d62ed745e4386a520118d20e05b5, type: 2}
+  - {fileID: 11400000, guid: 7f61fd4a32a9647cc981d1fcaa505ac8, type: 2}
+  - {fileID: 11400000, guid: 7f61fd4a32a9647cc981d1fcaa505ac8, type: 2}
+  - {fileID: 11400000, guid: 7f61fd4a32a9647cc981d1fcaa505ac8, type: 2}
+  - {fileID: 11400000, guid: 7f61fd4a32a9647cc981d1fcaa505ac8, type: 2}
+  - {fileID: 11400000, guid: 1f4e77385cd174fb39c12b7b4c8be2ac, type: 2}
+  - {fileID: 11400000, guid: 2e2d193739b7f495387fea5dafad16f9, type: 2}
+  - {fileID: 11400000, guid: 10018faa6d44c4158a2a6ca2326e0338, type: 2}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4cc2cb8eaf4444790bf3249beca9ed4, type: 3}
+  m_Name: DeckOfFate
+  m_EditorClassIdentifier: 
+  deckId: deck_of_fate
+  deckName: Deck Of Fate
+  cardList:
+  - {fileID: 11400000, guid: e556c3412100e40c7bd054aec2f1b507, type: 2}
+  - {fileID: 11400000, guid: e556c3412100e40c7bd054aec2f1b507, type: 2}
+  - {fileID: 11400000, guid: e556c3412100e40c7bd054aec2f1b507, type: 2}
+  - {fileID: 11400000, guid: d621d62ed745e4386a520118d20e05b5, type: 2}
+  - {fileID: 11400000, guid: 7f61fd4a32a9647cc981d1fcaa505ac8, type: 2}
+  - {fileID: 11400000, guid: 7f61fd4a32a9647cc981d1fcaa505ac8, type: 2}
+  - {fileID: 11400000, guid: 7f61fd4a32a9647cc981d1fcaa505ac8, type: 2}
+  - {fileID: 11400000, guid: 34e150d5d52d94bbe932aa9c74fd54d1, type: 2}
+  - {fileID: 11400000, guid: ad773dd18b2bb419db6043b0db21bd29, type: 2}
+  - {fileID: 11400000, guid: f3bbf3660763e49e5b18ff054db1753a, type: 2}
+  - {fileID: 11400000, guid: 1f4e77385cd174fb39c12b7b4c8be2ac, type: 2}
+  - {fileID: 11400000, guid: 2fbd218fb258043fbb74a97142b90060, type: 2}
